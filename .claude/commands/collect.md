@@ -26,6 +26,8 @@ AI 트렌드 데이터를 수집하고 요약합니다.
    - **Infrastructure**: 추론 인프라, 배포, 서빙
    - **Models & Research**: 새 모델, 논문, 벤치마크
    - **Tools & Frameworks**: MCP, tool use, 프레임워크
+   - **Security & Safety**: 에이전트 보안, 프라이버시, 안전성, prompt injection, 가드레일
+   - **Evaluation & Benchmarks**: 에이전트 평가 방법론, 벤치마크, 성능 측정
 4. 카테고리별로 주요 항목 3~5개를 한국어로 요약한다.
 5. 요약 결과를 `output/YYYY-MM-DD-digest.md`로 저장한다.
 6. 터미널에 요약을 출력한다.

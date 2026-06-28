@@ -20,7 +20,16 @@
 ## Loop Engineering
 ...
 
-## 주목할 논문
+## Infrastructure & Tools
+...
+
+## Models & Research
+...
+
+## Security & Safety
+...
+
+## Evaluation & Benchmarks
 ...
 ```
 
