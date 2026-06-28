@@ -45,7 +45,9 @@ def save(items: list[dict], date_str: str | None = None) -> Path:
         try:
             existing = json.loads(out_path.read_text())
         except json.JSONDecodeError:
-            print(f"Warning: {out_path} is malformed, starting fresh.", flush=True)
+            backup = out_path.with_suffix(".bak.json")
+            out_path.rename(backup)
+            print(f"Warning: {out_path.name} was malformed, backed up to {backup.name}", flush=True)
 
     seen_ids = {i["id"] for i in existing}
     new_items = [i for i in items if i["id"] not in seen_ids]

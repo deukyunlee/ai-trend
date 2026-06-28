@@ -1,4 +1,5 @@
 """arXiv collector — fetches AI/agent papers, optionally filtered by date range."""
+import urllib.error
 import urllib.request
 import urllib.parse
 import xml.etree.ElementTree as ET
@@ -20,13 +21,13 @@ def _date_range_filter(from_date: str | None, to_date: str | None) -> str | None
     """arXiv submittedDate range filter 문자열 생성.
 
     from_date / to_date: YYYY-MM-DD 형식
-    arXiv API 포맷: submittedDate:[YYYYMMDD0000+TO+YYYYMMDD2359]
+    Lucene range 문법은 TO 전후로 공백 필요 — urlencode가 공백을 %20으로 인코딩해야 올바르게 동작.
     """
     if not from_date and not to_date:
         return None
     from_str = from_date.replace("-", "") + "0000" if from_date else "000000000000"
     to_str = to_date.replace("-", "") + "2359" if to_date else "999999999999"
-    return f"submittedDate:[{from_str}+TO+{to_str}]"
+    return f"submittedDate:[{from_str} TO {to_str}]"
 
 
 def fetch(
@@ -45,7 +46,7 @@ def fetch(
     seen = set()
 
     for query in QUERIES:
-        full_query = f"({query})+AND+{date_filter}" if date_filter else query
+        full_query = f"({query}) AND {date_filter}" if date_filter else query
         params = urllib.parse.urlencode({
             "search_query": full_query,
             "sortBy": "submittedDate",
@@ -53,8 +54,12 @@ def fetch(
             "max_results": max_per_query,
         })
         url = f"{ARXIV_API}?{params}"
-        with urllib.request.urlopen(url, timeout=15) as r:
-            tree = ET.fromstring(r.read())
+        try:
+            with urllib.request.urlopen(url, timeout=15) as r:
+                tree = ET.fromstring(r.read())
+        except urllib.error.URLError as e:
+            print(f"arXiv fetch failed for query '{query}': {e}", flush=True)
+            continue
 
         for entry in tree.findall(f"{{{NS}}}entry"):
             arxiv_id = entry.findtext(f"{{{NS}}}id", "").strip()
