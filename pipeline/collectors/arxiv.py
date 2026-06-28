@@ -25,8 +25,8 @@ def _date_range_filter(from_date: str | None, to_date: str | None) -> str | None
     """
     if not from_date and not to_date:
         return None
-    from_str = from_date.replace("-", "") + "0000" if from_date else "000000000000"
-    to_str = to_date.replace("-", "") + "2359" if to_date else "999999999999"
+    from_str = from_date.replace("-", "") + "0000" if from_date else "000101010000"
+    to_str = to_date.replace("-", "") + "2359" if to_date else "999912312359"
     return f"submittedDate:[{from_str} TO {to_str}]"
 
 

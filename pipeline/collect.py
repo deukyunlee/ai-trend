@@ -1,6 +1,7 @@
 """Main collection script — run directly or via /collect skill."""
 import argparse
 import json
+import os
 from datetime import datetime, UTC
 from pathlib import Path
 
@@ -53,7 +54,9 @@ def save(items: list[dict], date_str: str | None = None) -> Path:
     new_items = [i for i in items if i["id"] not in seen_ids]
     all_items = existing + new_items
 
-    out_path.write_text(json.dumps(all_items, ensure_ascii=False, indent=2))
+    tmp_path = out_path.with_suffix(".tmp.json")
+    tmp_path.write_text(json.dumps(all_items, ensure_ascii=False, indent=2))
+    os.replace(tmp_path, out_path)  # atomic overwrite
     print(f"\nSaved {len(new_items)} new items -> {out_path}")
     return out_path
 

@@ -18,11 +18,16 @@ def should_run_now() -> bool:
 
 def run_collect() -> bool:
     print(f"[{datetime.now(UTC).isoformat()}] Running collect...", flush=True)
-    result = subprocess.run(
-        [sys.executable, "collect.py"],
-        cwd=ROOT,
-        capture_output=False,
-    )
+    try:
+        result = subprocess.run(
+            [sys.executable, "collect.py"],
+            cwd=ROOT,
+            capture_output=False,
+            timeout=300,
+        )
+    except subprocess.TimeoutExpired:
+        print("collect.py timed out after 300s", flush=True)
+        return False
     if result.returncode != 0:
         print(f"collect.py exited with code {result.returncode}", flush=True)
         return False
