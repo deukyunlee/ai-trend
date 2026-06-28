@@ -2,7 +2,7 @@
 import urllib.request
 import urllib.parse
 import xml.etree.ElementTree as ET
-from datetime import datetime, UTC, date
+from datetime import datetime, UTC
 
 ARXIV_API = "https://export.arxiv.org/api/query"
 NS = "http://www.w3.org/2005/Atom"

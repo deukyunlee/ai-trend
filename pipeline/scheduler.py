@@ -1,11 +1,12 @@
 """In-process scheduler — run once, collects daily at configured time."""
+import sys
 import time
 import subprocess
 from datetime import datetime, UTC
 from pathlib import Path
 
 COLLECT_HOUR_KST = 9  # 매일 오전 9시 (KST)
-COLLECT_HOUR_UTC = COLLECT_HOUR_KST - 9  # = 0시 UTC
+COLLECT_HOUR_UTC = (COLLECT_HOUR_KST - 9) % 24  # KST is UTC+9; always 0–23
 
 ROOT = Path(__file__).parent
 
@@ -18,7 +19,7 @@ def should_run_now() -> bool:
 def run_collect():
     print(f"[{datetime.now(UTC).isoformat()}] Running collect...", flush=True)
     result = subprocess.run(
-        ["python3", "collect.py"],
+        [sys.executable, "collect.py"],
         cwd=ROOT,
         capture_output=False,
     )

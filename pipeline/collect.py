@@ -22,8 +22,9 @@ def collect(
 
     if "hn" in sources:
         print("Fetching Hacker News...", flush=True)
-        items += fetch_hn()
-        print(f"  -> {len([i for i in items if i['source'] == 'hackernews'])} items")
+        hn_items = fetch_hn()
+        items += hn_items
+        print(f"  -> {len(hn_items)} items")
 
     if "arxiv" in sources:
         date_info = f" (from={from_date}, to={to_date})" if from_date or to_date else ""
