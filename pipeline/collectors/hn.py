@@ -1,5 +1,6 @@
 """Hacker News collector — fetches top AI-related stories."""
 import json
+import urllib.error
 import urllib.request
 from datetime import datetime, UTC
 
@@ -14,15 +15,22 @@ AI_KEYWORDS = [
 
 
 def fetch(limit: int = 30) -> list[dict]:
-    with urllib.request.urlopen(HN_TOP_STORIES) as r:
-        ids = json.loads(r.read())[:200]
+    try:
+        with urllib.request.urlopen(HN_TOP_STORIES, timeout=10) as r:
+            ids = json.loads(r.read())[:200]
+    except urllib.error.URLError as e:
+        print(f"HN top stories fetch failed: {e}", flush=True)
+        return []
 
     results = []
     for story_id in ids:
         if len(results) >= limit:
             break
-        with urllib.request.urlopen(HN_ITEM.format(story_id)) as r:
-            item = json.loads(r.read())
+        try:
+            with urllib.request.urlopen(HN_ITEM.format(story_id), timeout=10) as r:
+                item = json.loads(r.read())
+        except urllib.error.URLError:
+            continue
         if not item or item.get("type") != "story":
             continue
         title = (item.get("title") or "").lower()
