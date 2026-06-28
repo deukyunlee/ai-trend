@@ -1,6 +1,6 @@
 """Main collection script — run directly or via /collect skill."""
+import argparse
 import json
-import sys
 from datetime import datetime, UTC
 from pathlib import Path
 
@@ -12,7 +12,11 @@ from collectors.hn import fetch as fetch_hn
 from collectors.arxiv import fetch as fetch_arxiv
 
 
-def collect(sources: list[str] | None = None) -> list[dict]:
+def collect(
+    sources: list[str] | None = None,
+    from_date: str | None = None,
+    to_date: str | None = None,
+) -> list[dict]:
     sources = sources or ["hn", "arxiv"]
     items = []
 
@@ -22,16 +26,17 @@ def collect(sources: list[str] | None = None) -> list[dict]:
         print(f"  -> {len([i for i in items if i['source'] == 'hackernews'])} items")
 
     if "arxiv" in sources:
-        print("Fetching arXiv...", flush=True)
-        arxiv_items = fetch_arxiv()
+        date_info = f" (from={from_date}, to={to_date})" if from_date or to_date else ""
+        print(f"Fetching arXiv{date_info}...", flush=True)
+        arxiv_items = fetch_arxiv(from_date=from_date, to_date=to_date)
         items += arxiv_items
         print(f"  -> {len(arxiv_items)} items")
 
     return items
 
 
-def save(items: list[dict]) -> Path:
-    date_str = datetime.now(UTC).strftime("%Y-%m-%d")
+def save(items: list[dict], date_str: str | None = None) -> Path:
+    date_str = date_str or datetime.now(UTC).strftime("%Y-%m-%d")
     out_path = OUTPUT / f"{date_str}.json"
 
     existing = []
@@ -48,10 +53,16 @@ def save(items: list[dict]) -> Path:
 
 
 if __name__ == "__main__":
-    sources = sys.argv[1:] or None
-    items = collect(sources)
-    path = save(items)
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--date", help="저장 날짜 (YYYY-MM-DD). 기본값: 오늘")
+    parser.add_argument("--from-date", help="arXiv 수집 시작 날짜 (YYYY-MM-DD)")
+    parser.add_argument("--to-date", help="arXiv 수집 종료 날짜 (YYYY-MM-DD)")
+    parser.add_argument("--sources", nargs="*", help="수집 소스 (hn, arxiv)")
+    args = parser.parse_args()
 
-    print(f"\n=== Collected {len(items)} items ===")
+    items = collect(args.sources, from_date=args.from_date, to_date=args.to_date)
+    path = save(items, args.date)
+
+    print(f"\n=== Collected {len(items)} items -> {path.name} ===")
     for item in items[:5]:
         print(f"[{item['source']:12s}] {item['title'][:80]}")

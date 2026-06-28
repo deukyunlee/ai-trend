@@ -1,9 +1,8 @@
-"""arXiv collector — fetches recent AI/agent papers."""
-import json
+"""arXiv collector — fetches AI/agent papers, optionally filtered by date range."""
 import urllib.request
 import urllib.parse
 import xml.etree.ElementTree as ET
-from datetime import datetime, UTC
+from datetime import datetime, UTC, date
 
 ARXIV_API = "https://export.arxiv.org/api/query"
 NS = "http://www.w3.org/2005/Atom"
@@ -17,13 +16,38 @@ QUERIES = [
 ]
 
 
-def fetch(max_per_query: int = 5) -> list[dict]:
+def _date_range_filter(from_date: str | None, to_date: str | None) -> str | None:
+    """arXiv submittedDate range filter 문자열 생성.
+
+    from_date / to_date: YYYY-MM-DD 형식
+    arXiv API 포맷: submittedDate:[YYYYMMDD0000+TO+YYYYMMDD2359]
+    """
+    if not from_date and not to_date:
+        return None
+    from_str = from_date.replace("-", "") + "0000" if from_date else "000000000000"
+    to_str = to_date.replace("-", "") + "2359" if to_date else "999999999999"
+    return f"submittedDate:[{from_str}+TO+{to_str}]"
+
+
+def fetch(
+    max_per_query: int = 5,
+    from_date: str | None = None,
+    to_date: str | None = None,
+) -> list[dict]:
+    """
+    Args:
+        max_per_query: 쿼리당 최대 결과 수
+        from_date: 시작 날짜 (YYYY-MM-DD). None이면 제한 없음.
+        to_date: 종료 날짜 (YYYY-MM-DD). None이면 제한 없음.
+    """
+    date_filter = _date_range_filter(from_date, to_date)
     results = []
     seen = set()
 
     for query in QUERIES:
+        full_query = f"({query})+AND+{date_filter}" if date_filter else query
         params = urllib.parse.urlencode({
-            "search_query": query,
+            "search_query": full_query,
             "sortBy": "submittedDate",
             "sortOrder": "descending",
             "max_results": max_per_query,
@@ -37,12 +61,15 @@ def fetch(max_per_query: int = 5) -> list[dict]:
             if arxiv_id in seen:
                 continue
             seen.add(arxiv_id)
+
+            published = (entry.findtext(f"{{{NS}}}published") or "").strip()
             results.append({
                 "source": "arxiv",
                 "id": arxiv_id,
                 "title": (entry.findtext(f"{{{NS}}}title") or "").strip(),
                 "summary": (entry.findtext(f"{{{NS}}}summary") or "").strip()[:500],
                 "url": arxiv_id,
+                "published_at": published,
                 "collected_at": datetime.now(UTC).isoformat(),
             })
 
@@ -50,6 +77,10 @@ def fetch(max_per_query: int = 5) -> list[dict]:
 
 
 if __name__ == "__main__":
-    for item in fetch():
-        print(f"{item['title']}")
+    import sys
+    from_d = sys.argv[1] if len(sys.argv) > 1 else None
+    to_d = sys.argv[2] if len(sys.argv) > 2 else None
+    print(f"Fetching arXiv (from={from_d}, to={to_d})...")
+    for item in fetch(from_date=from_d, to_date=to_d):
+        print(f"[{item['published_at'][:10]}] {item['title']}")
         print(f"  {item['url']}\n")
