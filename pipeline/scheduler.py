@@ -11,11 +11,6 @@ COLLECT_HOUR_UTC = (COLLECT_HOUR_KST - 9) % 24  # KST is UTC+9; always 0–23
 ROOT = Path(__file__).parent
 
 
-def should_run_now() -> bool:
-    now = datetime.now(UTC)
-    return now.hour == COLLECT_HOUR_UTC and now.minute < 5  # 5분 윈도우로 sleep jitter 허용
-
-
 def run_collect() -> bool:
     print(f"[{datetime.now(UTC).isoformat()}] Running collect...", flush=True)
     try:
@@ -41,13 +36,14 @@ def main():
     while True:
         now = datetime.now(UTC)
         today = now.date()
+        scheduled_time = datetime(today.year, today.month, today.day, COLLECT_HOUR_UTC, 0, tzinfo=UTC)
 
-        if should_run_now() and last_run_date != today:
+        if now >= scheduled_time and last_run_date != today:
             success = run_collect()
             if success:
-                last_run_date = today  # 성공 시에만 업데이트, 실패 시 다음 분에 재시도
+                last_run_date = today  # 성공 시에만 업데이트, 실패 시 재시도
 
-        time.sleep(60)
+        time.sleep(10)
 
 
 if __name__ == "__main__":
