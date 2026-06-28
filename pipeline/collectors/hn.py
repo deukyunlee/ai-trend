@@ -14,14 +14,14 @@ AI_KEYWORDS = [
 
 
 def fetch(limit: int = 30) -> list[dict]:
-    with urllib.request.urlopen(HN_TOP_STORIES) as r:
+    with urllib.request.urlopen(HN_TOP_STORIES, timeout=10) as r:
         ids = json.loads(r.read())[:200]
 
     results = []
     for story_id in ids:
         if len(results) >= limit:
             break
-        with urllib.request.urlopen(HN_ITEM.format(story_id)) as r:
+        with urllib.request.urlopen(HN_ITEM.format(story_id), timeout=10) as r:
             item = json.loads(r.read())
         if not item or item.get("type") != "story":
             continue

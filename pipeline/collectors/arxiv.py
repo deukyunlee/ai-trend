@@ -53,7 +53,7 @@ def fetch(
             "max_results": max_per_query,
         })
         url = f"{ARXIV_API}?{params}"
-        with urllib.request.urlopen(url) as r:
+        with urllib.request.urlopen(url, timeout=15) as r:
             tree = ET.fromstring(r.read())
 
         for entry in tree.findall(f"{{{NS}}}entry"):
