@@ -65,6 +65,15 @@ def test_save_different_dates_create_separate_files(tmp_path, monkeypatch):
     assert (tmp_path / "2026-06-02.json").exists()
 
 
+def test_save_global_dedup_across_dates(tmp_path, monkeypatch):
+    monkeypatch.setattr("collect.OUTPUT", tmp_path)
+    # 06-01에 저장된 항목은 06-02에 다시 저장되지 않아야 함
+    save(FAKE_ITEMS, date_str="2026-06-01")
+    path = save(FAKE_ITEMS, date_str="2026-06-02")
+    data = json.loads(path.read_text())
+    assert len(data) == 0
+
+
 # ── collect() — 외부 API mocking ──────────────────────────────────────────────
 
 def test_collect_hn_only(monkeypatch):

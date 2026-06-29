@@ -44,6 +44,20 @@ def collect(
     return items
 
 
+def _global_seen_ids(exclude: Path) -> set[str]:
+    """output/*.json 전체에서 이미 수집된 ID를 반환 (오늘 파일 제외)."""
+    seen: set[str] = set()
+    for f in OUTPUT.glob("*.json"):
+        if f == exclude:
+            continue
+        try:
+            for item in json.loads(f.read_text()):
+                seen.add(item["id"])
+        except (json.JSONDecodeError, KeyError):
+            pass
+    return seen
+
+
 def save(items: list[dict], date_str: str | None = None) -> Path:
     date_str = date_str or datetime.now(UTC).strftime("%Y-%m-%d")
     out_path = OUTPUT / f"{date_str}.json"
@@ -57,7 +71,8 @@ def save(items: list[dict], date_str: str | None = None) -> Path:
             out_path.rename(backup)
             print(f"Warning: {out_path.name} was malformed, backed up to {backup.name}", flush=True)
 
-    seen_ids = {i["id"] for i in existing}
+    # 오늘 파일 내 중복 + 다른 날짜 파일에 이미 있는 항목 모두 제외
+    seen_ids = {i["id"] for i in existing} | _global_seen_ids(exclude=out_path)
     new_items = [i for i in items if i["id"] not in seen_ids]
     all_items = existing + new_items
 
