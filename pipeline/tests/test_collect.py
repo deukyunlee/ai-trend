@@ -10,7 +10,7 @@ sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from collect import collect, save
 
-FAKE_REDDIT_ITEM = {"source": "reddit_r_machinelearning", "id": "reddit:abc123", "title": "Reddit ML Post", "url": "https://reddit.com/r/MachineLearning/abc123", "score": 50, "subreddit": "MachineLearning", "num_comments": 10, "collected_at": "2026-06-29T00:00:00+00:00"}
+FAKE_LOBSTERS_ITEM = {"source": "lobsters", "id": "lobsters:abc123", "title": "Lobste.rs AI Post", "url": "https://lobste.rs/s/abc123", "score": 10, "tags": ["ai"], "num_comments": 5, "collected_at": "2026-06-29T00:00:00+00:00"}
 
 
 # ── fixtures ──────────────────────────────────────────────────────────────────
@@ -95,19 +95,19 @@ def test_collect_passes_date_range_to_arxiv(monkeypatch):
     assert captured["to_date"] == "2026-06-30"
 
 
-def test_collect_reddit_only(monkeypatch):
-    monkeypatch.setattr("collect.fetch_reddit", lambda **_: [FAKE_REDDIT_ITEM])
-    items = collect(sources=["reddit"])
+def test_collect_lobsters_only(monkeypatch):
+    monkeypatch.setattr("collect.fetch_lobsters", lambda **_: [FAKE_LOBSTERS_ITEM])
+    items = collect(sources=["lobsters"])
     assert len(items) == 1
-    assert items[0]["source"] == "reddit_r_machinelearning"
+    assert items[0]["source"] == "lobsters"
 
 
 def test_collect_default_sources(monkeypatch):
     called = []
     monkeypatch.setattr("collect.fetch_hn", lambda: called.append("hn") or [])
     monkeypatch.setattr("collect.fetch_arxiv", lambda **_: called.append("arxiv") or [])
-    monkeypatch.setattr("collect.fetch_reddit", lambda **_: called.append("reddit") or [])
+    monkeypatch.setattr("collect.fetch_lobsters", lambda **_: called.append("lobsters") or [])
     collect()
     assert "hn" in called
     assert "arxiv" in called
-    assert "reddit" in called
+    assert "lobsters" in called

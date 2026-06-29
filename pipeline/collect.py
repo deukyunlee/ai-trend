@@ -11,7 +11,7 @@ OUTPUT.mkdir(exist_ok=True)
 
 from collectors.hn import fetch as fetch_hn
 from collectors.arxiv import fetch as fetch_arxiv
-from collectors.reddit import fetch as fetch_reddit
+from collectors.lobsters import fetch as fetch_lobsters
 
 
 def collect(
@@ -19,7 +19,7 @@ def collect(
     from_date: str | None = None,
     to_date: str | None = None,
 ) -> list[dict]:
-    sources = sources or ["hn", "arxiv", "reddit"]
+    sources = sources or ["hn", "arxiv", "lobsters"]
     items = []
 
     if "hn" in sources:
@@ -35,11 +35,11 @@ def collect(
         items += arxiv_items
         print(f"  -> {len(arxiv_items)} items")
 
-    if "reddit" in sources:
-        print("Fetching Reddit (r/MachineLearning, r/LocalLLaMA)...", flush=True)
-        reddit_items = fetch_reddit()
-        items += reddit_items
-        print(f"  -> {len(reddit_items)} items")
+    if "lobsters" in sources:
+        print("Fetching Lobste.rs (tag=ai)...", flush=True)
+        lobsters_items = fetch_lobsters()
+        items += lobsters_items
+        print(f"  -> {len(lobsters_items)} items")
 
     return items
 
@@ -73,7 +73,7 @@ if __name__ == "__main__":
     parser.add_argument("--date", help="저장 날짜 (YYYY-MM-DD). 기본값: 오늘")
     parser.add_argument("--from-date", help="arXiv 수집 시작 날짜 (YYYY-MM-DD)")
     parser.add_argument("--to-date", help="arXiv 수집 종료 날짜 (YYYY-MM-DD)")
-    parser.add_argument("--sources", nargs="*", help="수집 소스 (hn, arxiv, reddit)")
+    parser.add_argument("--sources", nargs="*", help="수집 소스 (hn, arxiv, lobsters)")
     args = parser.parse_args()
 
     items = collect(args.sources, from_date=args.from_date, to_date=args.to_date)
