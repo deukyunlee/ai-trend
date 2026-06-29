@@ -1,0 +1,449 @@
+[
+  {
+    "source": "hackernews",
+    "id": "48709670",
+    "title": "GLM 5.2 beats Claude in our benchmarks",
+    "url": "https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks/",
+    "score": 655,
+    "collected_at": "2026-06-29T05:52:54.318179+00:00"
+  },
+  {
+    "source": "hackernews",
+    "id": "48713832",
+    "title": "HackerRank open sourced its ATS. My resume scored 90/100. Oh wait 74. No – 88",
+    "url": "https://danunparsed.com/p/hackerrank-open-source-ats",
+    "score": 104,
+    "collected_at": "2026-06-29T05:52:55.056839+00:00"
+  },
+  {
+    "source": "hackernews",
+    "id": "48714802",
+    "title": "Herdr: Agent multiplexer that lives in your terminal",
+    "url": "https://github.com/ogulcancelik/herdr",
+    "score": 13,
+    "collected_at": "2026-06-29T05:52:55.425832+00:00"
+  },
+  {
+    "source": "hackernews",
+    "id": "48714880",
+    "title": "Lore – give your coding agent the decisions your team made",
+    "url": "https://github.com/itsthelore/rac-core",
+    "score": 7,
+    "collected_at": "2026-06-29T05:52:55.804769+00:00"
+  },
+  {
+    "source": "hackernews",
+    "id": "48708941",
+    "title": "I used Claude Code to get a second opinion on my MRI",
+    "url": "https://antoine.fi/mri-analysis-using-claude-code-opus",
+    "score": 391,
+    "collected_at": "2026-06-29T05:52:57.315260+00:00"
+  },
+  {
+    "source": "hackernews",
+    "id": "48673450",
+    "title": "Model Training as Code",
+    "url": "https://aleph-alpha.com/en/blog/model-training-as-code/",
+    "score": 38,
+    "collected_at": "2026-06-29T05:53:00.520954+00:00"
+  },
+  {
+    "source": "hackernews",
+    "id": "48708991",
+    "title": "Professor denounces mass AI fraud on an exam at Brown",
+    "url": "https://english.elpais.com/education/2026-06-28/ai-fraud-at-brown-university-academic-integrity-is-at-risk.html",
+    "score": 345,
+    "collected_at": "2026-06-29T05:53:00.892056+00:00"
+  },
+  {
+    "source": "hackernews",
+    "id": "48709187",
+    "title": "Working around dragons with the Lemote Yeeloong laptop and OpenBSD",
+    "url": "http://oldvcr.blogspot.com/2026/06/working-around-dragons-with-lemote.html",
+    "score": 101,
+    "collected_at": "2026-06-29T05:53:01.643981+00:00"
+  },
+  {
+    "source": "hackernews",
+    "id": "48710232",
+    "title": "Librepods: AirPods liberated",
+    "url": "https://github.com/librepods-org/librepods",
+    "score": 336,
+    "collected_at": "2026-06-29T05:53:02.020194+00:00"
+  },
+  {
+    "source": "hackernews",
+    "id": "48708859",
+    "title": "Daisugi, the Japanese technique of growing trees out of other trees (2020)",
+    "url": "https://www.openculture.com/2020/10/daisugi.html",
+    "score": 125,
+    "collected_at": "2026-06-29T05:53:02.446841+00:00"
+  },
+  {
+    "source": "hackernews",
+    "id": "48706714",
+    "title": "A way to exclude sensitive files issue still open for OpenAI Codex",
+    "url": "https://github.com/openai/codex/issues/2847",
+    "score": 192,
+    "collected_at": "2026-06-29T05:53:03.551617+00:00"
+  },
+  {
+    "source": "hackernews",
+    "id": "48710827",
+    "title": "Show HN: Bash4LLM+ – A lightweight, dependency-free Bash wrapper for LLM APIs",
+    "url": "https://github.com/kamaludu/bash4llm/",
+    "score": 43,
+    "collected_at": "2026-06-29T05:53:04.667393+00:00"
+  },
+  {
+    "source": "hackernews",
+    "id": "48710778",
+    "title": "Show HN: NanoEuler – GPT-2 scale model in pure C/CUDA from scratch",
+    "url": "https://github.com/JustVugg/nanoeuler",
+    "score": 45,
+    "collected_at": "2026-06-29T05:53:05.823432+00:00"
+  },
+  {
+    "source": "hackernews",
+    "id": "48713697",
+    "title": "AI boom risks global financial crash, warn central bankers",
+    "url": "https://www.telegraph.co.uk/business/2026/06/28/ai-boom-risks-global-financial-crash-central-bankers-warn/",
+    "score": 113,
+    "collected_at": "2026-06-29T05:53:08.497228+00:00"
+  },
+  {
+    "source": "hackernews",
+    "id": "48710350",
+    "title": "Computer-Aided Language Development in Nonspeaking Children (1968) [pdf]",
+    "url": "https://archive.org/details/colby1968-computer-aided-language-development-in-non-speaking-children",
+    "score": 26,
+    "collected_at": "2026-06-29T05:53:09.236554+00:00"
+  },
+  {
+    "source": "hackernews",
+    "id": "48713051",
+    "title": "Better Images of AI",
+    "url": "https://betterimagesofai.org/",
+    "score": 47,
+    "collected_at": "2026-06-29T05:53:10.471246+00:00"
+  },
+  {
+    "source": "hackernews",
+    "id": "48713642",
+    "title": "Show HN: XSDR – Real-time event monitoring infrastructure for agents",
+    "url": "https://xsdr.app",
+    "score": 4,
+    "collected_at": "2026-06-29T05:53:13.380610+00:00"
+  },
+  {
+    "source": "hackernews",
+    "id": "48709744",
+    "title": "Ornith-1.0: Self-Scaffolding LLMs for Agentic Coding",
+    "url": "https://deep-reinforce.com/ornith_1_0.html",
+    "score": 21,
+    "collected_at": "2026-06-29T05:53:14.116459+00:00"
+  },
+  {
+    "source": "hackernews",
+    "id": "48704373",
+    "title": "Wayfinder Router: deterministic routing of queries between local and hosted LLM",
+    "url": "https://github.com/itsthelore/wayfinder-router",
+    "score": 115,
+    "collected_at": "2026-06-29T05:53:16.343824+00:00"
+  },
+  {
+    "source": "hackernews",
+    "id": "48682461",
+    "title": "Show HN: Appaca – AI Workspace for Operators",
+    "url": "https://www.appaca.ai/",
+    "score": 18,
+    "collected_at": "2026-06-29T05:53:17.105749+00:00"
+  },
+  {
+    "source": "hackernews",
+    "id": "48708721",
+    "title": "Reflections on software engineering in the age of AI",
+    "url": "https://adiamond.me/2026/06/software-engineering-in-the-age-of-ai/",
+    "score": 93,
+    "collected_at": "2026-06-29T05:53:19.706995+00:00"
+  },
+  {
+    "source": "hackernews",
+    "id": "48712212",
+    "title": "Why frontier LLMs can't read the hard documents without experts involved",
+    "url": "https://idp-software.com/news/the-76-percent-wall/",
+    "score": 8,
+    "collected_at": "2026-06-29T05:53:21.193753+00:00"
+  },
+  {
+    "source": "hackernews",
+    "id": "48707103",
+    "title": "Google limits Meta's use of its Gemini AI models",
+    "url": "https://www.cnbc.com/2026/06/28/google-limits-metas-use-of-its-gemini-ai-models-ft-reports.html",
+    "score": 149,
+    "collected_at": "2026-06-29T05:53:23.055616+00:00"
+  },
+  {
+    "source": "hackernews",
+    "id": "48714617",
+    "title": "From Prompts to Loops: Building Autonomous Coding Agents",
+    "url": "https://animeshgaitonde.medium.com/from-prompts-to-loops-building-autonomous-coding-agents-6135bf880415",
+    "score": 4,
+    "collected_at": "2026-06-29T05:53:23.424092+00:00"
+  },
+  {
+    "source": "hackernews",
+    "id": "48660021",
+    "title": "AI learns the “dark art” of RFIC design",
+    "url": "https://spectrum.ieee.org/ai-radio-chip-design",
+    "score": 262,
+    "collected_at": "2026-06-29T05:53:24.905114+00:00"
+  },
+  {
+    "source": "hackernews",
+    "id": "48696585",
+    "title": "DSpark: Speculative decoding accelerates LLM inference [pdf]",
+    "url": "https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf",
+    "score": 785,
+    "collected_at": "2026-06-29T05:53:25.282421+00:00"
+  },
+  {
+    "source": "hackernews",
+    "id": "48697958",
+    "title": "Asian AI startups launch Mythos-like models",
+    "url": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/",
+    "score": 268,
+    "collected_at": "2026-06-29T05:53:25.653967+00:00"
+  },
+  {
+    "source": "hackernews",
+    "id": "48710351",
+    "title": "LLDB MCP",
+    "url": "https://lldb.llvm.org/use/mcp.html",
+    "score": 5,
+    "collected_at": "2026-06-29T05:53:27.880057+00:00"
+  },
+  {
+    "source": "hackernews",
+    "id": "48706877",
+    "title": "The origins of the school system aimed to produce independent, critical thinkers (2024)",
+    "url": "https://www.cbc.ca/radio/ideas/humboldt-education-system-bildung-1.7172093",
+    "score": 104,
+    "collected_at": "2026-06-29T05:53:29.011004+00:00"
+  },
+  {
+    "source": "hackernews",
+    "id": "48689028",
+    "title": "Previewing GPT‑5.6 Sol: a next-generation model",
+    "url": "https://openai.com/index/previewing-gpt-5-6-sol/",
+    "score": 1123,
+    "collected_at": "2026-06-29T05:53:31.268090+00:00"
+  },
+  {
+    "source": "arxiv",
+    "id": "http://arxiv.org/abs/2606.27009v1",
+    "title": "Semantic Early-Stopping for Iterative LLM Agent Loops",
+    "summary": "Multi-agent large language model (LLM) loops, for example a Writer that drafts and a Critic that revises, are almost always terminated by a fixed iteration cap (max_iterations). This is a syntactic kill-switch: it is blind to whether the answer is still improving, so it over-spends tokens on easy inputs and truncates hard ones. We study semantic early-stopping: the loop halts when consecutive draft embeddings stop changing in meaning (cosine distance with a patience window) and the answer's meas",
+    "url": "http://arxiv.org/abs/2606.27009v1",
+    "published_at": "2026-06-25T13:24:21Z",
+    "collected_at": "2026-06-29T05:53:31.641845+00:00"
+  },
+  {
+    "source": "arxiv",
+    "id": "http://arxiv.org/abs/2606.26614v1",
+    "title": "HiLSVA: Design and Evaluation of a Human-in-the-Loop Agentic System for Scientific Visualization",
+    "summary": "Large language model (LLM) agents enable natural language interaction for scientific visualization (SciVis). Still, prior systems have essentially prioritized autonomy over human analytical control, thereby limiting transparency and human oversight. We present HiLSVA, a human-in-the-loop agentic system that supports mixed-initiative SciVis workflows. HiLSVA integrates a plan-first multi-agent architecture with explicit human oversight, stepwise provenance tracking, and learn-at-test-time adaptat",
+    "url": "http://arxiv.org/abs/2606.26614v1",
+    "published_at": "2026-06-25T05:19:07Z",
+    "collected_at": "2026-06-29T05:53:31.641881+00:00"
+  },
+  {
+    "source": "arxiv",
+    "id": "http://arxiv.org/abs/2606.22610v1",
+    "title": "PaperClaw: Harnessing Agents for Autonomous Research and Human-in-the-Loop Refinement",
+    "summary": "Large language models have become capable reasoners and tool users that write and run code and search the literature, which makes automating the research process itself a realistic goal. We present PAPERCLAW, a harnessed multi-agent system that carries a project autonomously, from a field of study to a finished paper. PAPERCLAW curates a domain from a field's live literature, datasets, and code; brainstorms it into an idea with a pre-registered main-result contract; and drives a stoppable hypoth",
+    "url": "http://arxiv.org/abs/2606.22610v1",
+    "published_at": "2026-06-21T17:37:01Z",
+    "collected_at": "2026-06-29T05:53:31.641890+00:00"
+  },
+  {
+    "source": "arxiv",
+    "id": "http://arxiv.org/abs/2606.18591v1",
+    "title": "Bridging Creative Intent and Visual Quality: Creator-Driven Recurrent Video Generation with Agentic Feedback Loops",
+    "summary": "Generative AI has made content creation increasingly accessible, but many AI-generated videos lack narrative coherence and creative direction, issues that become more substantial at longer durations. Unlike coding, where AI generation benefits from reliable feedback and techniques such as recurrent self-improvement, video generation requires subjective feedback about plot, scenes, and narrative, which naturally motivates approaches that incorporate human creative direction. We introduce CHIEF, a",
+    "url": "http://arxiv.org/abs/2606.18591v1",
+    "published_at": "2026-06-17T01:39:30Z",
+    "collected_at": "2026-06-29T05:53:31.641896+00:00"
+  },
+  {
+    "source": "arxiv",
+    "id": "http://arxiv.org/abs/2606.18000v1",
+    "title": "A T-API-Compliant ReAct Agentic Loop for Optical Networks: Generic vs. Domain-Specific Tool Abstractions",
+    "summary": "Optical networks need intent-driven, closed-loop agentic management, a key enabler for higher autonomy levels. We present the first T-API-compliant reasoning and act (ReAct) loop. We show that domain-specific composite tools achieve 90% oracle-validated correctness with threefold token savings compared to generic tools.",
+    "url": "http://arxiv.org/abs/2606.18000v1",
+    "published_at": "2026-06-16T14:47:16Z",
+    "collected_at": "2026-06-29T05:53:31.641901+00:00"
+  },
+  {
+    "source": "arxiv",
+    "id": "http://arxiv.org/abs/2606.28061v1",
+    "title": "ToolPrivacyBench: Benchmarking Purpose-Bound Privacy in Tool-Using LLM Agents",
+    "summary": "Large language models (LLMs) have increasingly moved from standalone text generation systems to agents that invoke external tools, access environments, and execute multi-step tasks. However, conventional function-calling benchmarks mainly evaluate task completion and API correctness, while privacy evaluation benchmarks typically focus on final responses or privacy judgments. Neither perspective captures purpose-bound information flow across an executed multi-tool trajectory. Motivated by this li",
+    "url": "http://arxiv.org/abs/2606.28061v1",
+    "published_at": "2026-06-26T13:08:46Z",
+    "collected_at": "2026-06-29T05:53:32.004033+00:00"
+  },
+  {
+    "source": "arxiv",
+    "id": "http://arxiv.org/abs/2606.28011v1",
+    "title": "From Detection to Action: Using LLM Agents for Fault-Tolerant Control",
+    "summary": "We propose an agentic Large Language Model (LLM) framework for active Fault-Tolerant Control (FTC) that transforms fault detection outputs into constraint-aware recovery actions grounded in plant-specific knowledge. The approach couples (i) a multi-agent workflow that decomposes operator duties into monitoring, planning, action synthesis, simulation, validation, and reprompting; (ii) a Digital Process Plant Twin (DPPT) that exposes plant data, models, and a simulation service for pre-execution t",
+    "url": "http://arxiv.org/abs/2606.28011v1",
+    "published_at": "2026-06-26T12:13:58Z",
+    "collected_at": "2026-06-29T05:53:32.004057+00:00"
+  },
+  {
+    "source": "arxiv",
+    "id": "http://arxiv.org/abs/2606.27990v1",
+    "title": "AdvancedShelLM: A Stateful Multi-Agent LLM Honeypot for SSH Deception",
+    "summary": "LLM-based SSH honeypots can generate believable interactions, but evaluations indicate they remain somewhat identifiable to determined attackers, indicating the need for a better scaffolding. We present a new LLM-based honeypot design that uses a multi-agent, multi-LLM architecture to address the limitations of the previous shelLM LLM honeypot. Our honeypot, called AdvancedShelLM, uses two LLM agents, a Manager and a Worker, that better understand the commands while reducing incorrect responses ",
+    "url": "http://arxiv.org/abs/2606.27990v1",
+    "published_at": "2026-06-26T11:39:05Z",
+    "collected_at": "2026-06-29T05:53:32.004066+00:00"
+  },
+  {
+    "source": "arxiv",
+    "id": "http://arxiv.org/abs/2606.27845v1",
+    "title": "LLM Agents as Static Level-k Players in Behavioural Games",
+    "summary": "Large Language Models (LLMs) are increasingly used as stand-ins in behavioural games. These stand-ins rely on the assumption that the LLM's distribution of choices meaningfully matches how humans play the same game. This study tests that assumption through two games. The first is a p-beauty contest, and the second one is a public goods game. The study first investigates five local-model settings within the same model family. These settings are varied together in a 360-cell factorial, which balan",
+    "url": "http://arxiv.org/abs/2606.27845v1",
+    "published_at": "2026-06-26T08:34:12Z",
+    "collected_at": "2026-06-29T05:53:32.004074+00:00"
+  },
+  {
+    "source": "arxiv",
+    "id": "http://arxiv.org/abs/2606.27806v1",
+    "title": "Grounded Iterative Language Planning: How Parameterized World Models Reduce Hallucination Propagation in LLM Agents",
+    "summary": "World models for language agents come in two useful forms. An agent-based world model calls an LLM API and reasons flexibly in language, but its errors appear as hallucinated state changes that are hard to score with ordinary regression losses. A parameterized world model is a trained transition predictor; its errors are easier to measure with quantities such as NodeMSE, delta accuracy, and validity accuracy, but it is usually weaker as a standalone planner. We compare these two families on four",
+    "url": "http://arxiv.org/abs/2606.27806v1",
+    "published_at": "2026-06-26T07:45:15Z",
+    "collected_at": "2026-06-29T05:53:32.004082+00:00"
+  },
+  {
+    "source": "arxiv",
+    "id": "http://arxiv.org/abs/2606.27243v2",
+    "title": "NOVA: A Verification-Aware Agent Harness for Architecture Evolution in Industrial Recommender Systems",
+    "summary": "Industrial advertising recommender models are continuously improved through architecture evolution. Upgrades such as RankMixer, TokenMixer-Large, and MixFormer show that better structures remain a key source of quality and business gains. Yet developing such upgrades in production is expert-intensive and difficult to scale. Existing automation is insufficient: AutoML mainly tunes hyper-parameters, while effective gains often require cross-module changes under strict constraints; generic LLM codi",
+    "url": "http://arxiv.org/abs/2606.27243v2",
+    "published_at": "2026-06-25T16:30:39Z",
+    "collected_at": "2026-06-29T05:53:32.405672+00:00"
+  },
+  {
+    "source": "arxiv",
+    "id": "http://arxiv.org/abs/2606.27188v1",
+    "title": "A Process Harness for Uplifting Legacy Workflows to Agentic BPM: Design and Realization in CUGA FLO",
+    "summary": "We introduce the process harness, a new mechanism for uplifting legacy workflows into Agentic Business Process Management (Agentic BPM) without replacing the underlying workflow engine. A process harness places a policy-governed agentic layer around a deterministic workflow engine, intercepting designated control points to contribute reasoning, adaptation, and oversight while the engine retains structural authority over the process. To define the process harness rigorously, we develop the Task-D",
+    "url": "http://arxiv.org/abs/2606.27188v1",
+    "published_at": "2026-06-25T15:50:42Z",
+    "collected_at": "2026-06-29T05:53:32.405697+00:00"
+  },
+  {
+    "source": "arxiv",
+    "id": "http://arxiv.org/abs/2606.25447v1",
+    "title": "The Interplay of Harness Design and Post-Training in LLM Agents",
+    "summary": "Tool-integrated LLM agents are often wrapped within a harness: the scaffolding that determines which tools are exposed, how they are described, and what auxiliary information accompanies each per-step observation. While agents are routinely post-trained, this scaffolding is typically treated as a fixed engineering detail, with design effort limited to the training-free regime. Moreover, existing post-training algorithms assume a static environment, even though tool environments and tasks often s",
+    "url": "http://arxiv.org/abs/2606.25447v1",
+    "published_at": "2026-06-24T06:23:02Z",
+    "collected_at": "2026-06-29T05:53:32.405707+00:00"
+  },
+  {
+    "source": "arxiv",
+    "id": "http://arxiv.org/abs/2606.25189v1",
+    "title": "ActPlane: Programmable OS-Level Policy Enforcement for Agent Harnesses",
+    "summary": "AI agents increasingly run in production through harnesses, the software around the LLM, including an engine that enforces safety and effectiveness policies, e.g., 'run tests before committing.' Enforcing these policies requires bridging a semantic gap: policy intent is expressed in underspecified natural language, while enforcement must act on concrete system actions, e.g., which test to run. Many policies also define event ordering or data flow actions. Yet existing approaches fall short. Tool",
+    "url": "http://arxiv.org/abs/2606.25189v1",
+    "published_at": "2026-06-23T21:33:13Z",
+    "collected_at": "2026-06-29T05:53:32.405715+00:00"
+  },
+  {
+    "source": "arxiv",
+    "id": "http://arxiv.org/abs/2606.23449v1",
+    "title": "AOHP: An Open-Source OS-Level Agent Harness for Personalized, Efficient and Secure Interaction",
+    "summary": "AI agents are driving a new software paradigm, with the ability to autonomously call tools, extract information, manage memory, and complete tasks that span applications and data sources. Most existing end-user operating systems, however, are designed for application-centric workflows and offer little native support for AI agents. This mismatch limits the wider adoption of agents and leads to execution overhead and safety risks when running agents on conventional systems. While the concept of ag",
+    "url": "http://arxiv.org/abs/2606.23449v1",
+    "published_at": "2026-06-22T15:02:42Z",
+    "collected_at": "2026-06-29T05:53:32.405723+00:00"
+  },
+  {
+    "source": "arxiv",
+    "id": "http://arxiv.org/abs/2606.28215v1",
+    "title": "HAT-4D: Lifting Monocular Video for 4D Multi-Object Interactions via Human-Agent Collaboration",
+    "summary": "Extracting dynamic 4D object interactions from massive, in-the-wild monocular videos offers a highly efficient data collection pathway for scaling Embodied AI and training VLAs. However, existing monocular 4D reconstruction methods primarily focus on isolated objects, often failing under the severe occlusions and complex dynamics inherent in multi-object interactions. To bridge this gap, we propose HAT-4D, the first agentic framework designed to reconstruct the 3D geometry, temporal dynamics, an",
+    "url": "http://arxiv.org/abs/2606.28215v1",
+    "published_at": "2026-06-26T16:05:58Z",
+    "collected_at": "2026-06-29T05:53:32.814028+00:00"
+  },
+  {
+    "source": "arxiv",
+    "id": "http://arxiv.org/abs/2606.28187v1",
+    "title": "GBC: Gradient-Based Connections for Optimizing Multi-Agent Systems",
+    "summary": "Multi-agent systems (MAS) built on large language models (LLMs) provide a promising framework for solving complex tasks through role specialization and structured interaction. However, their performance is often limited by miscoordination and, more fundamentally, the lack of fine-grained credit assignment across agents. Existing approaches typically rely on coarse-grained feedback, making it difficult to identify which agents or interaction steps are responsible for errors. We propose Gradient-B",
+    "url": "http://arxiv.org/abs/2606.28187v1",
+    "published_at": "2026-06-26T15:32:33Z",
+    "collected_at": "2026-06-29T05:53:32.814053+00:00"
+  },
+  {
+    "source": "arxiv",
+    "id": "http://arxiv.org/abs/2606.28182v1",
+    "title": "LLawCo: Learning Laws of Cooperation for Modeling Embodied Multi-Agent Behavior",
+    "summary": "Embodied agents operating in decentralized and partially observable environments have attracted growing attention in recent years. However, existing large language model (LLM)-based agents often exhibit behaviors that are misaligned with their partners or inconsistent with the environment state, leading to inefficient cooperation and poor task success. To address this challenge, we propose a novel framework, Learning Laws of Cooperation (LLawCo), that enables embodied agents to autonomously alig",
+    "url": "http://arxiv.org/abs/2606.28182v1",
+    "published_at": "2026-06-26T15:26:12Z",
+    "collected_at": "2026-06-29T05:53:32.814063+00:00"
+  },
+  {
+    "source": "arxiv",
+    "id": "http://arxiv.org/abs/2606.28109v1",
+    "title": "MMAO: A Metabolic Multi-Agent Optimizer with Endogenous Resource Allocation for Continuous and Discrete Optimization",
+    "summary": "Traditional meta-heuristics often rely on fixed population sizes, manually chosen search scales, and externally attached parameter-control modules. This paper presents the \\textit{Metabolic Multi-Agent Optimizer} (MMAO), a cross-domain optimization framework in which adaptation is derived endogenously from a private-public metabolic resource loop. Each agent carries internal energy, a continuous role state, motion or structural memory, and local search history, while the population shares a comm",
+    "url": "http://arxiv.org/abs/2606.28109v1",
+    "published_at": "2026-06-26T14:10:34Z",
+    "collected_at": "2026-06-29T05:53:32.814073+00:00"
+  },
+  {
+    "source": "arxiv",
+    "id": "http://arxiv.org/abs/2606.26403v1",
+    "title": "ProfileFoundry: A Synthetic Person-Object Substrate for Privacy, Memory, and Tool-Use Evaluation in LLM Agent",
+    "summary": "Foundation-model research increasingly needs data about people: user state, personal histories, relationships, contact-like fields, documents, and longitudinal updates. Real user data is difficult to share, perturb, audit, or redistribute responsibly, while independently generated fake fields rarely preserve the cross-field and temporal consistency needed for controlled evaluation. We present PROFILEFOUNDRY, a deterministic generator and fixed reference release of 100,000 adult synthetic Person ",
+    "url": "http://arxiv.org/abs/2606.26403v1",
+    "published_at": "2026-06-24T21:43:36Z",
+    "collected_at": "2026-06-29T05:53:33.316166+00:00"
+  },
+  {
+    "source": "arxiv",
+    "id": "http://arxiv.org/abs/2606.22388v1",
+    "title": "PlanBench-XL: Evaluating Long-Horizon Planning of LLM Tool-Use Agents in Large-Scale Tool Ecosystems",
+    "summary": "LLM agents increasingly operate in large tool ecosystems, where real-world tasks require discovering relevant tools, inferring implicit sub-goals, and adapting to dynamic environments over long horizons. However, existing benchmarks rarely evaluate planning under retrieval-limited tool visibility. To address this gap, we introduce PlanBench-XL, an interactive benchmark of 327 retail tasks over 1,665 tools that tests whether agents can iteratively retrieve usable tools, invoke them to uncover int",
+    "url": "http://arxiv.org/abs/2606.22388v1",
+    "published_at": "2026-06-21T08:29:12Z",
+    "collected_at": "2026-06-29T05:53:33.316190+00:00"
+  },
+  {
+    "source": "arxiv",
+    "id": "http://arxiv.org/abs/2606.21409v1",
+    "title": "Don't Blindly Trust It: How Unreliable Feedback Breaks Tool-Using LLM Agents",
+    "summary": "Tool-augmented agents are typically evaluated by their gains under reliable external feedback. Yet these gains leave open a key counterfactual: when feedback is unreliable, would the agent be better off receiving no task evidence? We study this question with a controlled matched-loop comparison that fixes the agent loop, prompt, action space, and decoding, while varying only the returned observation: faithful, misleading, or absent. Across question answering and fact verification, persistent mis",
+    "url": "http://arxiv.org/abs/2606.21409v1",
+    "published_at": "2026-06-19T13:21:25Z",
+    "collected_at": "2026-06-29T05:53:33.316199+00:00"
+  },
+  {
+    "source": "arxiv",
+    "id": "http://arxiv.org/abs/2606.18356v1",
+    "title": "SafeClawBench: Separating Semantic, Audit-Evidence, and Sandbox Harm in Tool-Using LLM Agents",
+    "summary": "Tool-using language-model agents introduce security failures that go beyond unsafe text: they can disclose protected objects, write persistent memory, send messages, modify databases, or trigger harmful code and tool effects. Existing evaluations often collapse these stages into a single attack success rate, making it difficult to tell whether a model merely agreed with an attacker or actually produced observable harm. We introduce SafeClawBench, a staged benchmark for tool-using agent security ",
+    "url": "http://arxiv.org/abs/2606.18356v1",
+    "published_at": "2026-06-16T18:04:45Z",
+    "collected_at": "2026-06-29T05:53:33.316207+00:00"
+  }
+]
