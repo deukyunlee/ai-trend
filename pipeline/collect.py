@@ -44,18 +44,22 @@ def collect(
     return items
 
 
-def _global_seen_ids(exclude: Path) -> set[str]:
-    """output/*.json 전체에서 이미 수집된 ID를 반환 (오늘 파일 제외)."""
-    seen: set[str] = set()
-    for f in OUTPUT.glob("*.json"):
-        if f == exclude:
-            continue
-        try:
-            for item in json.loads(f.read_text()):
-                seen.add(item["id"])
-        except (json.JSONDecodeError, KeyError):
-            pass
-    return seen
+SEEN_CACHE = OUTPUT / "seen_ids.json"
+
+
+def _load_seen_ids() -> set[str]:
+    if not SEEN_CACHE.exists():
+        return set()
+    try:
+        return set(json.loads(SEEN_CACHE.read_text()))
+    except (json.JSONDecodeError, TypeError):
+        return set()
+
+
+def _save_seen_ids(seen: set[str]) -> None:
+    tmp = SEEN_CACHE.with_suffix(".tmp.json")
+    tmp.write_text(json.dumps(sorted(seen), ensure_ascii=False))
+    os.replace(tmp, SEEN_CACHE)
 
 
 def save(items: list[dict], date_str: str | None = None) -> Path:
@@ -71,14 +75,15 @@ def save(items: list[dict], date_str: str | None = None) -> Path:
             out_path.rename(backup)
             print(f"Warning: {out_path.name} was malformed, backed up to {backup.name}", flush=True)
 
-    # 오늘 파일 내 중복 + 다른 날짜 파일에 이미 있는 항목 모두 제외
-    seen_ids = {i["id"] for i in existing} | _global_seen_ids(exclude=out_path)
+    seen_ids = _load_seen_ids() | {i["id"] for i in existing}
     new_items = [i for i in items if i["id"] not in seen_ids]
     all_items = existing + new_items
 
     tmp_path = out_path.with_suffix(".tmp.json")
     tmp_path.write_text(json.dumps(all_items, ensure_ascii=False, indent=2))
     os.replace(tmp_path, out_path)  # atomic overwrite
+
+    _save_seen_ids(seen_ids | {i["id"] for i in new_items})
     print(f"\nSaved {len(new_items)} new items -> {out_path}")
     return out_path
 

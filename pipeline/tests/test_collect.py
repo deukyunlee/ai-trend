@@ -23,25 +23,29 @@ FAKE_ITEMS = [
 
 # ── save() ────────────────────────────────────────────────────────────────────
 
-def test_save_creates_file(tmp_path, monkeypatch):
+@pytest.fixture(autouse=False)
+def isolated_output(tmp_path, monkeypatch):
+    """OUTPUT과 SEEN_CACHE를 tmp_path로 격리."""
     monkeypatch.setattr("collect.OUTPUT", tmp_path)
+    monkeypatch.setattr("collect.SEEN_CACHE", tmp_path / "seen_ids.json")
+    return tmp_path
+
+
+def test_save_creates_file(isolated_output):
     path = save(FAKE_ITEMS, date_str="2026-06-28")
     assert path.exists()
     data = json.loads(path.read_text())
     assert len(data) == 2
 
 
-def test_save_deduplicates_by_id(tmp_path, monkeypatch):
-    monkeypatch.setattr("collect.OUTPUT", tmp_path)
+def test_save_deduplicates_by_id(isolated_output):
     save(FAKE_ITEMS, date_str="2026-06-28")
-    # 동일 ID로 재저장 — 중복 없어야 함
     path = save(FAKE_ITEMS, date_str="2026-06-28")
     data = json.loads(path.read_text())
     assert len(data) == 2
 
 
-def test_save_appends_new_items(tmp_path, monkeypatch):
-    monkeypatch.setattr("collect.OUTPUT", tmp_path)
+def test_save_appends_new_items(isolated_output):
     save(FAKE_ITEMS, date_str="2026-06-28")
     new_item = {"source": "hackernews", "id": "99", "title": "New", "url": "https://example.com/99", "score": 1, "collected_at": "2026-06-28T01:00:00+00:00"}
     path = save([new_item], date_str="2026-06-28")
@@ -49,24 +53,21 @@ def test_save_appends_new_items(tmp_path, monkeypatch):
     assert len(data) == 3
 
 
-def test_save_uses_today_when_no_date(tmp_path, monkeypatch):
+def test_save_uses_today_when_no_date(isolated_output):
     from datetime import datetime, UTC
-    monkeypatch.setattr("collect.OUTPUT", tmp_path)
     today = datetime.now(UTC).strftime("%Y-%m-%d")
     path = save(FAKE_ITEMS)
     assert path.name == f"{today}.json"
 
 
-def test_save_different_dates_create_separate_files(tmp_path, monkeypatch):
-    monkeypatch.setattr("collect.OUTPUT", tmp_path)
+def test_save_different_dates_create_separate_files(isolated_output):
     save(FAKE_ITEMS, date_str="2026-06-01")
     save(FAKE_ITEMS, date_str="2026-06-02")
-    assert (tmp_path / "2026-06-01.json").exists()
-    assert (tmp_path / "2026-06-02.json").exists()
+    assert (isolated_output / "2026-06-01.json").exists()
+    assert (isolated_output / "2026-06-02.json").exists()
 
 
-def test_save_global_dedup_across_dates(tmp_path, monkeypatch):
-    monkeypatch.setattr("collect.OUTPUT", tmp_path)
+def test_save_global_dedup_across_dates(isolated_output):
     # 06-01에 저장된 항목은 06-02에 다시 저장되지 않아야 함
     save(FAKE_ITEMS, date_str="2026-06-01")
     path = save(FAKE_ITEMS, date_str="2026-06-02")
