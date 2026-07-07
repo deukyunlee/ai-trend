@@ -51,14 +51,14 @@ def _load_seen_ids() -> set[str]:
     if not SEEN_CACHE.exists():
         return set()
     try:
-        return set(json.loads(SEEN_CACHE.read_text()))
+        return set(json.loads(SEEN_CACHE.read_text(encoding="utf-8")))
     except (json.JSONDecodeError, TypeError):
         return set()
 
 
 def _save_seen_ids(seen: set[str]) -> None:
     tmp = SEEN_CACHE.with_suffix(".tmp.json")
-    tmp.write_text(json.dumps(sorted(seen), ensure_ascii=False))
+    tmp.write_text(json.dumps(sorted(seen), ensure_ascii=False), encoding="utf-8")
     os.replace(tmp, SEEN_CACHE)
 
 
@@ -69,7 +69,7 @@ def save(items: list[dict], date_str: str | None = None) -> Path:
     existing = []
     if out_path.exists():
         try:
-            existing = json.loads(out_path.read_text())
+            existing = json.loads(out_path.read_text(encoding="utf-8"))
         except json.JSONDecodeError:
             backup = out_path.with_suffix(".bak.json")
             out_path.rename(backup)
@@ -80,7 +80,7 @@ def save(items: list[dict], date_str: str | None = None) -> Path:
     all_items = existing + new_items
 
     tmp_path = out_path.with_suffix(".tmp.json")
-    tmp_path.write_text(json.dumps(all_items, ensure_ascii=False, indent=2))
+    tmp_path.write_text(json.dumps(all_items, ensure_ascii=False, indent=2), encoding="utf-8")
     os.replace(tmp_path, out_path)  # atomic overwrite
 
     _save_seen_ids(seen_ids | {i["id"] for i in new_items})
