@@ -18,7 +18,7 @@ def fetch(limit: int = 30) -> list[dict]:
     try:
         with urllib.request.urlopen(HN_TOP_STORIES, timeout=10) as r:
             ids = json.loads(r.read())[:200]
-    except urllib.error.URLError as e:
+    except (urllib.error.URLError, TimeoutError, OSError) as e:
         print(f"HN top stories fetch failed: {e}", flush=True)
         return []
 
@@ -29,7 +29,7 @@ def fetch(limit: int = 30) -> list[dict]:
         try:
             with urllib.request.urlopen(HN_ITEM.format(story_id), timeout=10) as r:
                 item = json.loads(r.read())
-        except urllib.error.URLError:
+        except (urllib.error.URLError, TimeoutError, OSError):
             continue
         if not item or item.get("type") != "story":
             continue

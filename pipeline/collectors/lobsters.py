@@ -18,7 +18,7 @@ def fetch(limit_per_tag: int = 20) -> list[dict]:
         try:
             with urllib.request.urlopen(url, timeout=15) as r:
                 posts = json.loads(r.read())
-        except urllib.error.URLError as e:
+        except (urllib.error.URLError, TimeoutError, OSError) as e:
             print(f"Lobste.rs tag={tag} fetch failed: {e}", flush=True)
             continue
 

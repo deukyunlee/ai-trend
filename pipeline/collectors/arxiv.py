@@ -57,7 +57,7 @@ def fetch(
         try:
             with urllib.request.urlopen(url, timeout=15) as r:
                 tree = ET.fromstring(r.read())
-        except urllib.error.URLError as e:
+        except (urllib.error.URLError, TimeoutError, OSError) as e:
             print(f"arXiv fetch failed for query '{query}': {e}", flush=True)
             continue
 
