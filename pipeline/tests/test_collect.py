@@ -8,7 +8,7 @@ import pytest
 # pipeline/ 디렉토리를 sys.path에 추가
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
-from collect import collect, save
+from collect import collect, save, add_normalized_scores, NEUTRAL_SCORE
 
 FAKE_LOBSTERS_ITEM = {"source": "lobsters", "id": "lobsters:abc123", "title": "Lobste.rs AI Post", "url": "https://lobste.rs/s/abc123", "score": 10, "tags": ["ai"], "num_comments": 5, "collected_at": "2026-06-29T00:00:00+00:00"}
 FAKE_HF_ITEM = {"source": "huggingface", "id": "hf:2607.00001", "title": "HF Paper", "url": "https://huggingface.co/papers/2607.00001", "score": 42, "keywords": ["agent"], "num_comments": 3, "published_at": "2026-07-01", "collected_at": "2026-07-08T00:00:00+00:00"}
@@ -74,6 +74,56 @@ def test_save_global_dedup_across_dates(isolated_output):
     path = save(FAKE_ITEMS, date_str="2026-06-02")
     data = json.loads(path.read_text())
     assert len(data) == 0
+
+
+# ── add_normalized_scores() ───────────────────────────────────────────────────
+
+def test_normalize_minmax_within_source():
+    items = [
+        {"source": "hackernews", "id": "a", "score": 100},
+        {"source": "hackernews", "id": "b", "score": 600},
+        {"source": "hackernews", "id": "c", "score": 350},
+    ]
+    add_normalized_scores(items)
+    assert items[0]["normalized_score"] == 0.0   # min
+    assert items[1]["normalized_score"] == 1.0   # max
+    assert items[2]["normalized_score"] == 0.5   # 중간
+
+
+def test_normalize_independent_per_source():
+    # HN 600점과 lobsters 6점이 각자 소스 내 최고면 둘 다 1.0이어야 공정
+    items = [
+        {"source": "hackernews", "id": "a", "score": 600},
+        {"source": "hackernews", "id": "b", "score": 100},
+        {"source": "lobsters", "id": "c", "score": 6},
+        {"source": "lobsters", "id": "d", "score": 1},
+    ]
+    add_normalized_scores(items)
+    top = {i["id"]: i["normalized_score"] for i in items}
+    assert top["a"] == 1.0
+    assert top["c"] == 1.0
+
+
+def test_normalize_no_score_source_is_neutral():
+    # arXiv는 score 필드가 없음 → 모두 중립값
+    items = [
+        {"source": "arxiv", "id": "arxiv:1"},
+        {"source": "arxiv", "id": "arxiv:2"},
+    ]
+    add_normalized_scores(items)
+    assert all(i["normalized_score"] == NEUTRAL_SCORE for i in items)
+
+
+def test_normalize_single_item_is_neutral():
+    items = [{"source": "hackernews", "id": "a", "score": 100}]
+    add_normalized_scores(items)
+    assert items[0]["normalized_score"] == NEUTRAL_SCORE
+
+
+def test_save_writes_normalized_score(isolated_output):
+    path = save(FAKE_ITEMS, date_str="2026-06-28")
+    data = json.loads(path.read_text(encoding="utf-8"))
+    assert all("normalized_score" in i for i in data)
 
 
 # ── collect() — 외부 API mocking ──────────────────────────────────────────────

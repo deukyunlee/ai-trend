@@ -69,6 +69,40 @@ def _save_seen_ids(seen: set[str]) -> None:
     os.replace(tmp, SEEN_CACHE)
 
 
+NEUTRAL_SCORE = 0.5
+
+
+def add_normalized_scores(items: list[dict]) -> list[dict]:
+    """소스별로 score를 0~1 범위로 min-max 정규화해 normalized_score 필드를 채운다.
+
+    소스마다 점수 척도가 다르므로(HN 수백, HF 수십, Lobste.rs 한 자릿수,
+    arXiv 점수 없음) 그대로 비교하면 HN이 항상 상단을 독식한다.
+    소스 그룹 내에서 상대 순위로 환산해 공정하게 랭킹한다.
+
+    - 점수가 없는 소스(arXiv) 또는 그룹 내 점수가 모두 동일 → NEUTRAL_SCORE
+    """
+    by_source: dict[str, list[dict]] = {}
+    for item in items:
+        by_source.setdefault(item["source"], []).append(item)
+
+    for group in by_source.values():
+        scores = [i["score"] for i in group if isinstance(i.get("score"), (int, float))]
+        if not scores:
+            for i in group:
+                i["normalized_score"] = NEUTRAL_SCORE
+            continue
+        lo, hi = min(scores), max(scores)
+        span = hi - lo
+        for i in group:
+            raw = i.get("score")
+            if not isinstance(raw, (int, float)) or span == 0:
+                i["normalized_score"] = NEUTRAL_SCORE
+            else:
+                i["normalized_score"] = round((raw - lo) / span, 3)
+
+    return items
+
+
 def save(items: list[dict], date_str: str | None = None) -> Path:
     date_str = date_str or datetime.now(UTC).strftime("%Y-%m-%d")
     out_path = OUTPUT / f"{date_str}.json"
@@ -84,7 +118,7 @@ def save(items: list[dict], date_str: str | None = None) -> Path:
 
     seen_ids = _load_seen_ids() | {i["id"] for i in existing}
     new_items = [i for i in items if i["id"] not in seen_ids]
-    all_items = existing + new_items
+    all_items = add_normalized_scores(existing + new_items)
 
     tmp_path = out_path.with_suffix(".tmp.json")
     tmp_path.write_text(json.dumps(all_items, ensure_ascii=False, indent=2), encoding="utf-8")

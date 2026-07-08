@@ -29,6 +29,7 @@ AI 트렌드 데이터를 수집하고 요약합니다.
    - **Security & Safety**: 에이전트 보안, 프라이버시, 안전성, prompt injection, 가드레일
    - **Evaluation & Benchmarks**: 에이전트 평가 방법론, 벤치마크, 성능 측정
 4. 카테고리별로 주요 항목 3~5개를 한국어로 요약한다.
+   - 중요도 순위는 각 항목의 `normalized_score`(0~1) 기준으로 매긴다. 소스마다 raw `score` 척도가 다르므로(HN 수백, HF 수십, Lobste.rs 한 자릿수, arXiv 없음) raw score로 직접 비교하지 않는다. `normalized_score`는 소스 내 상대 순위이며, 점수가 없는 arXiv는 0.5(중립)로 채워져 있다.
 5. 요약 결과를 `output/YYYY-MM-DD-digest.md`로 저장한다.
 6. 터미널에 요약을 출력한다.
 

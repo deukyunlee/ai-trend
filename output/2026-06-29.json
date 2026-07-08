@@ -5,7 +5,8 @@
     "title": "GLM 5.2 beats Claude in our benchmarks",
     "url": "https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks/",
     "score": 655,
-    "collected_at": "2026-06-29T05:52:54.318179+00:00"
+    "collected_at": "2026-06-29T05:52:54.318179+00:00",
+    "normalized_score": 0.582
   },
   {
     "source": "hackernews",
@@ -13,7 +14,8 @@
     "title": "HackerRank open sourced its ATS. My resume scored 90/100. Oh wait 74. No – 88",
     "url": "https://danunparsed.com/p/hackerrank-open-source-ats",
     "score": 104,
-    "collected_at": "2026-06-29T05:52:55.056839+00:00"
+    "collected_at": "2026-06-29T05:52:55.056839+00:00",
+    "normalized_score": 0.089
   },
   {
     "source": "hackernews",
@@ -21,7 +23,8 @@
     "title": "Herdr: Agent multiplexer that lives in your terminal",
     "url": "https://github.com/ogulcancelik/herdr",
     "score": 13,
-    "collected_at": "2026-06-29T05:52:55.425832+00:00"
+    "collected_at": "2026-06-29T05:52:55.425832+00:00",
+    "normalized_score": 0.008
   },
   {
     "source": "hackernews",
@@ -29,7 +32,8 @@
     "title": "Lore – give your coding agent the decisions your team made",
     "url": "https://github.com/itsthelore/rac-core",
     "score": 7,
-    "collected_at": "2026-06-29T05:52:55.804769+00:00"
+    "collected_at": "2026-06-29T05:52:55.804769+00:00",
+    "normalized_score": 0.003
   },
   {
     "source": "hackernews",
@@ -37,7 +41,8 @@
     "title": "I used Claude Code to get a second opinion on my MRI",
     "url": "https://antoine.fi/mri-analysis-using-claude-code-opus",
     "score": 391,
-    "collected_at": "2026-06-29T05:52:57.315260+00:00"
+    "collected_at": "2026-06-29T05:52:57.315260+00:00",
+    "normalized_score": 0.346
   },
   {
     "source": "hackernews",
@@ -45,7 +50,8 @@
     "title": "Model Training as Code",
     "url": "https://aleph-alpha.com/en/blog/model-training-as-code/",
     "score": 38,
-    "collected_at": "2026-06-29T05:53:00.520954+00:00"
+    "collected_at": "2026-06-29T05:53:00.520954+00:00",
+    "normalized_score": 0.03
   },
   {
     "source": "hackernews",
@@ -53,7 +59,8 @@
     "title": "Professor denounces mass AI fraud on an exam at Brown",
     "url": "https://english.elpais.com/education/2026-06-28/ai-fraud-at-brown-university-academic-integrity-is-at-risk.html",
     "score": 345,
-    "collected_at": "2026-06-29T05:53:00.892056+00:00"
+    "collected_at": "2026-06-29T05:53:00.892056+00:00",
+    "normalized_score": 0.305
   },
   {
     "source": "hackernews",
@@ -61,7 +68,8 @@
     "title": "Working around dragons with the Lemote Yeeloong laptop and OpenBSD",
     "url": "http://oldvcr.blogspot.com/2026/06/working-around-dragons-with-lemote.html",
     "score": 101,
-    "collected_at": "2026-06-29T05:53:01.643981+00:00"
+    "collected_at": "2026-06-29T05:53:01.643981+00:00",
+    "normalized_score": 0.087
   },
   {
     "source": "hackernews",
@@ -69,7 +77,8 @@
     "title": "Librepods: AirPods liberated",
     "url": "https://github.com/librepods-org/librepods",
     "score": 336,
-    "collected_at": "2026-06-29T05:53:02.020194+00:00"
+    "collected_at": "2026-06-29T05:53:02.020194+00:00",
+    "normalized_score": 0.297
   },
   {
     "source": "hackernews",
@@ -77,7 +86,8 @@
     "title": "Daisugi, the Japanese technique of growing trees out of other trees (2020)",
     "url": "https://www.openculture.com/2020/10/daisugi.html",
     "score": 125,
-    "collected_at": "2026-06-29T05:53:02.446841+00:00"
+    "collected_at": "2026-06-29T05:53:02.446841+00:00",
+    "normalized_score": 0.108
   },
   {
     "source": "hackernews",
@@ -85,7 +95,8 @@
     "title": "A way to exclude sensitive files issue still open for OpenAI Codex",
     "url": "https://github.com/openai/codex/issues/2847",
     "score": 192,
-    "collected_at": "2026-06-29T05:53:03.551617+00:00"
+    "collected_at": "2026-06-29T05:53:03.551617+00:00",
+    "normalized_score": 0.168
   },
   {
     "source": "hackernews",
@@ -93,7 +104,8 @@
     "title": "Show HN: Bash4LLM+ – A lightweight, dependency-free Bash wrapper for LLM APIs",
     "url": "https://github.com/kamaludu/bash4llm/",
     "score": 43,
-    "collected_at": "2026-06-29T05:53:04.667393+00:00"
+    "collected_at": "2026-06-29T05:53:04.667393+00:00",
+    "normalized_score": 0.035
   },
   {
     "source": "hackernews",
@@ -101,7 +113,8 @@
     "title": "Show HN: NanoEuler – GPT-2 scale model in pure C/CUDA from scratch",
     "url": "https://github.com/JustVugg/nanoeuler",
     "score": 45,
-    "collected_at": "2026-06-29T05:53:05.823432+00:00"
+    "collected_at": "2026-06-29T05:53:05.823432+00:00",
+    "normalized_score": 0.037
   },
   {
     "source": "hackernews",
@@ -109,7 +122,8 @@
     "title": "AI boom risks global financial crash, warn central bankers",
     "url": "https://www.telegraph.co.uk/business/2026/06/28/ai-boom-risks-global-financial-crash-central-bankers-warn/",
     "score": 113,
-    "collected_at": "2026-06-29T05:53:08.497228+00:00"
+    "collected_at": "2026-06-29T05:53:08.497228+00:00",
+    "normalized_score": 0.097
   },
   {
     "source": "hackernews",
@@ -117,7 +131,8 @@
     "title": "Computer-Aided Language Development in Nonspeaking Children (1968) [pdf]",
     "url": "https://archive.org/details/colby1968-computer-aided-language-development-in-non-speaking-children",
     "score": 26,
-    "collected_at": "2026-06-29T05:53:09.236554+00:00"
+    "collected_at": "2026-06-29T05:53:09.236554+00:00",
+    "normalized_score": 0.02
   },
   {
     "source": "hackernews",
@@ -125,7 +140,8 @@
     "title": "Better Images of AI",
     "url": "https://betterimagesofai.org/",
     "score": 47,
-    "collected_at": "2026-06-29T05:53:10.471246+00:00"
+    "collected_at": "2026-06-29T05:53:10.471246+00:00",
+    "normalized_score": 0.038
   },
   {
     "source": "hackernews",
@@ -133,7 +149,8 @@
     "title": "Show HN: XSDR – Real-time event monitoring infrastructure for agents",
     "url": "https://xsdr.app",
     "score": 4,
-    "collected_at": "2026-06-29T05:53:13.380610+00:00"
+    "collected_at": "2026-06-29T05:53:13.380610+00:00",
+    "normalized_score": 0.0
   },
   {
     "source": "hackernews",
@@ -141,7 +158,8 @@
     "title": "Ornith-1.0: Self-Scaffolding LLMs for Agentic Coding",
     "url": "https://deep-reinforce.com/ornith_1_0.html",
     "score": 21,
-    "collected_at": "2026-06-29T05:53:14.116459+00:00"
+    "collected_at": "2026-06-29T05:53:14.116459+00:00",
+    "normalized_score": 0.015
   },
   {
     "source": "hackernews",
@@ -149,7 +167,8 @@
     "title": "Wayfinder Router: deterministic routing of queries between local and hosted LLM",
     "url": "https://github.com/itsthelore/wayfinder-router",
     "score": 115,
-    "collected_at": "2026-06-29T05:53:16.343824+00:00"
+    "collected_at": "2026-06-29T05:53:16.343824+00:00",
+    "normalized_score": 0.099
   },
   {
     "source": "hackernews",
@@ -157,7 +176,8 @@
     "title": "Show HN: Appaca – AI Workspace for Operators",
     "url": "https://www.appaca.ai/",
     "score": 18,
-    "collected_at": "2026-06-29T05:53:17.105749+00:00"
+    "collected_at": "2026-06-29T05:53:17.105749+00:00",
+    "normalized_score": 0.013
   },
   {
     "source": "hackernews",
@@ -165,7 +185,8 @@
     "title": "Reflections on software engineering in the age of AI",
     "url": "https://adiamond.me/2026/06/software-engineering-in-the-age-of-ai/",
     "score": 93,
-    "collected_at": "2026-06-29T05:53:19.706995+00:00"
+    "collected_at": "2026-06-29T05:53:19.706995+00:00",
+    "normalized_score": 0.08
   },
   {
     "source": "hackernews",
@@ -173,7 +194,8 @@
     "title": "Why frontier LLMs can't read the hard documents without experts involved",
     "url": "https://idp-software.com/news/the-76-percent-wall/",
     "score": 8,
-    "collected_at": "2026-06-29T05:53:21.193753+00:00"
+    "collected_at": "2026-06-29T05:53:21.193753+00:00",
+    "normalized_score": 0.004
   },
   {
     "source": "hackernews",
@@ -181,7 +203,8 @@
     "title": "Google limits Meta's use of its Gemini AI models",
     "url": "https://www.cnbc.com/2026/06/28/google-limits-metas-use-of-its-gemini-ai-models-ft-reports.html",
     "score": 149,
-    "collected_at": "2026-06-29T05:53:23.055616+00:00"
+    "collected_at": "2026-06-29T05:53:23.055616+00:00",
+    "normalized_score": 0.13
   },
   {
     "source": "hackernews",
@@ -189,7 +212,8 @@
     "title": "From Prompts to Loops: Building Autonomous Coding Agents",
     "url": "https://animeshgaitonde.medium.com/from-prompts-to-loops-building-autonomous-coding-agents-6135bf880415",
     "score": 4,
-    "collected_at": "2026-06-29T05:53:23.424092+00:00"
+    "collected_at": "2026-06-29T05:53:23.424092+00:00",
+    "normalized_score": 0.0
   },
   {
     "source": "hackernews",
@@ -197,7 +221,8 @@
     "title": "AI learns the “dark art” of RFIC design",
     "url": "https://spectrum.ieee.org/ai-radio-chip-design",
     "score": 262,
-    "collected_at": "2026-06-29T05:53:24.905114+00:00"
+    "collected_at": "2026-06-29T05:53:24.905114+00:00",
+    "normalized_score": 0.231
   },
   {
     "source": "hackernews",
@@ -205,7 +230,8 @@
     "title": "DSpark: Speculative decoding accelerates LLM inference [pdf]",
     "url": "https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf",
     "score": 785,
-    "collected_at": "2026-06-29T05:53:25.282421+00:00"
+    "collected_at": "2026-06-29T05:53:25.282421+00:00",
+    "normalized_score": 0.698
   },
   {
     "source": "hackernews",
@@ -213,7 +239,8 @@
     "title": "Asian AI startups launch Mythos-like models",
     "url": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/",
     "score": 268,
-    "collected_at": "2026-06-29T05:53:25.653967+00:00"
+    "collected_at": "2026-06-29T05:53:25.653967+00:00",
+    "normalized_score": 0.236
   },
   {
     "source": "hackernews",
@@ -221,7 +248,8 @@
     "title": "LLDB MCP",
     "url": "https://lldb.llvm.org/use/mcp.html",
     "score": 5,
-    "collected_at": "2026-06-29T05:53:27.880057+00:00"
+    "collected_at": "2026-06-29T05:53:27.880057+00:00",
+    "normalized_score": 0.001
   },
   {
     "source": "hackernews",
@@ -229,7 +257,8 @@
     "title": "The origins of the school system aimed to produce independent, critical thinkers (2024)",
     "url": "https://www.cbc.ca/radio/ideas/humboldt-education-system-bildung-1.7172093",
     "score": 104,
-    "collected_at": "2026-06-29T05:53:29.011004+00:00"
+    "collected_at": "2026-06-29T05:53:29.011004+00:00",
+    "normalized_score": 0.089
   },
   {
     "source": "hackernews",
@@ -237,7 +266,8 @@
     "title": "Previewing GPT‑5.6 Sol: a next-generation model",
     "url": "https://openai.com/index/previewing-gpt-5-6-sol/",
     "score": 1123,
-    "collected_at": "2026-06-29T05:53:31.268090+00:00"
+    "collected_at": "2026-06-29T05:53:31.268090+00:00",
+    "normalized_score": 1.0
   },
   {
     "source": "arxiv",
@@ -246,7 +276,8 @@
     "summary": "Multi-agent large language model (LLM) loops, for example a Writer that drafts and a Critic that revises, are almost always terminated by a fixed iteration cap (max_iterations). This is a syntactic kill-switch: it is blind to whether the answer is still improving, so it over-spends tokens on easy inputs and truncates hard ones. We study semantic early-stopping: the loop halts when consecutive draft embeddings stop changing in meaning (cosine distance with a patience window) and the answer's meas",
     "url": "http://arxiv.org/abs/2606.27009v1",
     "published_at": "2026-06-25T13:24:21Z",
-    "collected_at": "2026-06-29T05:53:31.641845+00:00"
+    "collected_at": "2026-06-29T05:53:31.641845+00:00",
+    "normalized_score": 0.5
   },
   {
     "source": "arxiv",
@@ -255,7 +286,8 @@
     "summary": "Large language model (LLM) agents enable natural language interaction for scientific visualization (SciVis). Still, prior systems have essentially prioritized autonomy over human analytical control, thereby limiting transparency and human oversight. We present HiLSVA, a human-in-the-loop agentic system that supports mixed-initiative SciVis workflows. HiLSVA integrates a plan-first multi-agent architecture with explicit human oversight, stepwise provenance tracking, and learn-at-test-time adaptat",
     "url": "http://arxiv.org/abs/2606.26614v1",
     "published_at": "2026-06-25T05:19:07Z",
-    "collected_at": "2026-06-29T05:53:31.641881+00:00"
+    "collected_at": "2026-06-29T05:53:31.641881+00:00",
+    "normalized_score": 0.5
   },
   {
     "source": "arxiv",
@@ -264,7 +296,8 @@
     "summary": "Large language models have become capable reasoners and tool users that write and run code and search the literature, which makes automating the research process itself a realistic goal. We present PAPERCLAW, a harnessed multi-agent system that carries a project autonomously, from a field of study to a finished paper. PAPERCLAW curates a domain from a field's live literature, datasets, and code; brainstorms it into an idea with a pre-registered main-result contract; and drives a stoppable hypoth",
     "url": "http://arxiv.org/abs/2606.22610v1",
     "published_at": "2026-06-21T17:37:01Z",
-    "collected_at": "2026-06-29T05:53:31.641890+00:00"
+    "collected_at": "2026-06-29T05:53:31.641890+00:00",
+    "normalized_score": 0.5
   },
   {
     "source": "arxiv",
@@ -273,7 +306,8 @@
     "summary": "Generative AI has made content creation increasingly accessible, but many AI-generated videos lack narrative coherence and creative direction, issues that become more substantial at longer durations. Unlike coding, where AI generation benefits from reliable feedback and techniques such as recurrent self-improvement, video generation requires subjective feedback about plot, scenes, and narrative, which naturally motivates approaches that incorporate human creative direction. We introduce CHIEF, a",
     "url": "http://arxiv.org/abs/2606.18591v1",
     "published_at": "2026-06-17T01:39:30Z",
-    "collected_at": "2026-06-29T05:53:31.641896+00:00"
+    "collected_at": "2026-06-29T05:53:31.641896+00:00",
+    "normalized_score": 0.5
   },
   {
     "source": "arxiv",
@@ -282,7 +316,8 @@
     "summary": "Optical networks need intent-driven, closed-loop agentic management, a key enabler for higher autonomy levels. We present the first T-API-compliant reasoning and act (ReAct) loop. We show that domain-specific composite tools achieve 90% oracle-validated correctness with threefold token savings compared to generic tools.",
     "url": "http://arxiv.org/abs/2606.18000v1",
     "published_at": "2026-06-16T14:47:16Z",
-    "collected_at": "2026-06-29T05:53:31.641901+00:00"
+    "collected_at": "2026-06-29T05:53:31.641901+00:00",
+    "normalized_score": 0.5
   },
   {
     "source": "arxiv",
@@ -291,7 +326,8 @@
     "summary": "Large language models (LLMs) have increasingly moved from standalone text generation systems to agents that invoke external tools, access environments, and execute multi-step tasks. However, conventional function-calling benchmarks mainly evaluate task completion and API correctness, while privacy evaluation benchmarks typically focus on final responses or privacy judgments. Neither perspective captures purpose-bound information flow across an executed multi-tool trajectory. Motivated by this li",
     "url": "http://arxiv.org/abs/2606.28061v1",
     "published_at": "2026-06-26T13:08:46Z",
-    "collected_at": "2026-06-29T05:53:32.004033+00:00"
+    "collected_at": "2026-06-29T05:53:32.004033+00:00",
+    "normalized_score": 0.5
   },
   {
     "source": "arxiv",
@@ -300,7 +336,8 @@
     "summary": "We propose an agentic Large Language Model (LLM) framework for active Fault-Tolerant Control (FTC) that transforms fault detection outputs into constraint-aware recovery actions grounded in plant-specific knowledge. The approach couples (i) a multi-agent workflow that decomposes operator duties into monitoring, planning, action synthesis, simulation, validation, and reprompting; (ii) a Digital Process Plant Twin (DPPT) that exposes plant data, models, and a simulation service for pre-execution t",
     "url": "http://arxiv.org/abs/2606.28011v1",
     "published_at": "2026-06-26T12:13:58Z",
-    "collected_at": "2026-06-29T05:53:32.004057+00:00"
+    "collected_at": "2026-06-29T05:53:32.004057+00:00",
+    "normalized_score": 0.5
   },
   {
     "source": "arxiv",
@@ -309,7 +346,8 @@
     "summary": "LLM-based SSH honeypots can generate believable interactions, but evaluations indicate they remain somewhat identifiable to determined attackers, indicating the need for a better scaffolding. We present a new LLM-based honeypot design that uses a multi-agent, multi-LLM architecture to address the limitations of the previous shelLM LLM honeypot. Our honeypot, called AdvancedShelLM, uses two LLM agents, a Manager and a Worker, that better understand the commands while reducing incorrect responses ",
     "url": "http://arxiv.org/abs/2606.27990v1",
     "published_at": "2026-06-26T11:39:05Z",
-    "collected_at": "2026-06-29T05:53:32.004066+00:00"
+    "collected_at": "2026-06-29T05:53:32.004066+00:00",
+    "normalized_score": 0.5
   },
   {
     "source": "arxiv",
@@ -318,7 +356,8 @@
     "summary": "Large Language Models (LLMs) are increasingly used as stand-ins in behavioural games. These stand-ins rely on the assumption that the LLM's distribution of choices meaningfully matches how humans play the same game. This study tests that assumption through two games. The first is a p-beauty contest, and the second one is a public goods game. The study first investigates five local-model settings within the same model family. These settings are varied together in a 360-cell factorial, which balan",
     "url": "http://arxiv.org/abs/2606.27845v1",
     "published_at": "2026-06-26T08:34:12Z",
-    "collected_at": "2026-06-29T05:53:32.004074+00:00"
+    "collected_at": "2026-06-29T05:53:32.004074+00:00",
+    "normalized_score": 0.5
   },
   {
     "source": "arxiv",
@@ -327,7 +366,8 @@
     "summary": "World models for language agents come in two useful forms. An agent-based world model calls an LLM API and reasons flexibly in language, but its errors appear as hallucinated state changes that are hard to score with ordinary regression losses. A parameterized world model is a trained transition predictor; its errors are easier to measure with quantities such as NodeMSE, delta accuracy, and validity accuracy, but it is usually weaker as a standalone planner. We compare these two families on four",
     "url": "http://arxiv.org/abs/2606.27806v1",
     "published_at": "2026-06-26T07:45:15Z",
-    "collected_at": "2026-06-29T05:53:32.004082+00:00"
+    "collected_at": "2026-06-29T05:53:32.004082+00:00",
+    "normalized_score": 0.5
   },
   {
     "source": "arxiv",
@@ -336,7 +376,8 @@
     "summary": "Industrial advertising recommender models are continuously improved through architecture evolution. Upgrades such as RankMixer, TokenMixer-Large, and MixFormer show that better structures remain a key source of quality and business gains. Yet developing such upgrades in production is expert-intensive and difficult to scale. Existing automation is insufficient: AutoML mainly tunes hyper-parameters, while effective gains often require cross-module changes under strict constraints; generic LLM codi",
     "url": "http://arxiv.org/abs/2606.27243v2",
     "published_at": "2026-06-25T16:30:39Z",
-    "collected_at": "2026-06-29T05:53:32.405672+00:00"
+    "collected_at": "2026-06-29T05:53:32.405672+00:00",
+    "normalized_score": 0.5
   },
   {
     "source": "arxiv",
@@ -345,7 +386,8 @@
     "summary": "We introduce the process harness, a new mechanism for uplifting legacy workflows into Agentic Business Process Management (Agentic BPM) without replacing the underlying workflow engine. A process harness places a policy-governed agentic layer around a deterministic workflow engine, intercepting designated control points to contribute reasoning, adaptation, and oversight while the engine retains structural authority over the process. To define the process harness rigorously, we develop the Task-D",
     "url": "http://arxiv.org/abs/2606.27188v1",
     "published_at": "2026-06-25T15:50:42Z",
-    "collected_at": "2026-06-29T05:53:32.405697+00:00"
+    "collected_at": "2026-06-29T05:53:32.405697+00:00",
+    "normalized_score": 0.5
   },
   {
     "source": "arxiv",
@@ -354,7 +396,8 @@
     "summary": "Tool-integrated LLM agents are often wrapped within a harness: the scaffolding that determines which tools are exposed, how they are described, and what auxiliary information accompanies each per-step observation. While agents are routinely post-trained, this scaffolding is typically treated as a fixed engineering detail, with design effort limited to the training-free regime. Moreover, existing post-training algorithms assume a static environment, even though tool environments and tasks often s",
     "url": "http://arxiv.org/abs/2606.25447v1",
     "published_at": "2026-06-24T06:23:02Z",
-    "collected_at": "2026-06-29T05:53:32.405707+00:00"
+    "collected_at": "2026-06-29T05:53:32.405707+00:00",
+    "normalized_score": 0.5
   },
   {
     "source": "arxiv",
@@ -363,7 +406,8 @@
     "summary": "AI agents increasingly run in production through harnesses, the software around the LLM, including an engine that enforces safety and effectiveness policies, e.g., 'run tests before committing.' Enforcing these policies requires bridging a semantic gap: policy intent is expressed in underspecified natural language, while enforcement must act on concrete system actions, e.g., which test to run. Many policies also define event ordering or data flow actions. Yet existing approaches fall short. Tool",
     "url": "http://arxiv.org/abs/2606.25189v1",
     "published_at": "2026-06-23T21:33:13Z",
-    "collected_at": "2026-06-29T05:53:32.405715+00:00"
+    "collected_at": "2026-06-29T05:53:32.405715+00:00",
+    "normalized_score": 0.5
   },
   {
     "source": "arxiv",
@@ -372,7 +416,8 @@
     "summary": "AI agents are driving a new software paradigm, with the ability to autonomously call tools, extract information, manage memory, and complete tasks that span applications and data sources. Most existing end-user operating systems, however, are designed for application-centric workflows and offer little native support for AI agents. This mismatch limits the wider adoption of agents and leads to execution overhead and safety risks when running agents on conventional systems. While the concept of ag",
     "url": "http://arxiv.org/abs/2606.23449v1",
     "published_at": "2026-06-22T15:02:42Z",
-    "collected_at": "2026-06-29T05:53:32.405723+00:00"
+    "collected_at": "2026-06-29T05:53:32.405723+00:00",
+    "normalized_score": 0.5
   },
   {
     "source": "arxiv",
@@ -381,7 +426,8 @@
     "summary": "Extracting dynamic 4D object interactions from massive, in-the-wild monocular videos offers a highly efficient data collection pathway for scaling Embodied AI and training VLAs. However, existing monocular 4D reconstruction methods primarily focus on isolated objects, often failing under the severe occlusions and complex dynamics inherent in multi-object interactions. To bridge this gap, we propose HAT-4D, the first agentic framework designed to reconstruct the 3D geometry, temporal dynamics, an",
     "url": "http://arxiv.org/abs/2606.28215v1",
     "published_at": "2026-06-26T16:05:58Z",
-    "collected_at": "2026-06-29T05:53:32.814028+00:00"
+    "collected_at": "2026-06-29T05:53:32.814028+00:00",
+    "normalized_score": 0.5
   },
   {
     "source": "arxiv",
@@ -390,7 +436,8 @@
     "summary": "Multi-agent systems (MAS) built on large language models (LLMs) provide a promising framework for solving complex tasks through role specialization and structured interaction. However, their performance is often limited by miscoordination and, more fundamentally, the lack of fine-grained credit assignment across agents. Existing approaches typically rely on coarse-grained feedback, making it difficult to identify which agents or interaction steps are responsible for errors. We propose Gradient-B",
     "url": "http://arxiv.org/abs/2606.28187v1",
     "published_at": "2026-06-26T15:32:33Z",
-    "collected_at": "2026-06-29T05:53:32.814053+00:00"
+    "collected_at": "2026-06-29T05:53:32.814053+00:00",
+    "normalized_score": 0.5
   },
   {
     "source": "arxiv",
@@ -399,7 +446,8 @@
     "summary": "Embodied agents operating in decentralized and partially observable environments have attracted growing attention in recent years. However, existing large language model (LLM)-based agents often exhibit behaviors that are misaligned with their partners or inconsistent with the environment state, leading to inefficient cooperation and poor task success. To address this challenge, we propose a novel framework, Learning Laws of Cooperation (LLawCo), that enables embodied agents to autonomously alig",
     "url": "http://arxiv.org/abs/2606.28182v1",
     "published_at": "2026-06-26T15:26:12Z",
-    "collected_at": "2026-06-29T05:53:32.814063+00:00"
+    "collected_at": "2026-06-29T05:53:32.814063+00:00",
+    "normalized_score": 0.5
   },
   {
     "source": "arxiv",
@@ -408,7 +456,8 @@
     "summary": "Traditional meta-heuristics often rely on fixed population sizes, manually chosen search scales, and externally attached parameter-control modules. This paper presents the \\textit{Metabolic Multi-Agent Optimizer} (MMAO), a cross-domain optimization framework in which adaptation is derived endogenously from a private-public metabolic resource loop. Each agent carries internal energy, a continuous role state, motion or structural memory, and local search history, while the population shares a comm",
     "url": "http://arxiv.org/abs/2606.28109v1",
     "published_at": "2026-06-26T14:10:34Z",
-    "collected_at": "2026-06-29T05:53:32.814073+00:00"
+    "collected_at": "2026-06-29T05:53:32.814073+00:00",
+    "normalized_score": 0.5
   },
   {
     "source": "arxiv",
@@ -417,7 +466,8 @@
     "summary": "Foundation-model research increasingly needs data about people: user state, personal histories, relationships, contact-like fields, documents, and longitudinal updates. Real user data is difficult to share, perturb, audit, or redistribute responsibly, while independently generated fake fields rarely preserve the cross-field and temporal consistency needed for controlled evaluation. We present PROFILEFOUNDRY, a deterministic generator and fixed reference release of 100,000 adult synthetic Person ",
     "url": "http://arxiv.org/abs/2606.26403v1",
     "published_at": "2026-06-24T21:43:36Z",
-    "collected_at": "2026-06-29T05:53:33.316166+00:00"
+    "collected_at": "2026-06-29T05:53:33.316166+00:00",
+    "normalized_score": 0.5
   },
   {
     "source": "arxiv",
@@ -426,7 +476,8 @@
     "summary": "LLM agents increasingly operate in large tool ecosystems, where real-world tasks require discovering relevant tools, inferring implicit sub-goals, and adapting to dynamic environments over long horizons. However, existing benchmarks rarely evaluate planning under retrieval-limited tool visibility. To address this gap, we introduce PlanBench-XL, an interactive benchmark of 327 retail tasks over 1,665 tools that tests whether agents can iteratively retrieve usable tools, invoke them to uncover int",
     "url": "http://arxiv.org/abs/2606.22388v1",
     "published_at": "2026-06-21T08:29:12Z",
-    "collected_at": "2026-06-29T05:53:33.316190+00:00"
+    "collected_at": "2026-06-29T05:53:33.316190+00:00",
+    "normalized_score": 0.5
   },
   {
     "source": "arxiv",
@@ -435,7 +486,8 @@
     "summary": "Tool-augmented agents are typically evaluated by their gains under reliable external feedback. Yet these gains leave open a key counterfactual: when feedback is unreliable, would the agent be better off receiving no task evidence? We study this question with a controlled matched-loop comparison that fixes the agent loop, prompt, action space, and decoding, while varying only the returned observation: faithful, misleading, or absent. Across question answering and fact verification, persistent mis",
     "url": "http://arxiv.org/abs/2606.21409v1",
     "published_at": "2026-06-19T13:21:25Z",
-    "collected_at": "2026-06-29T05:53:33.316199+00:00"
+    "collected_at": "2026-06-29T05:53:33.316199+00:00",
+    "normalized_score": 0.5
   },
   {
     "source": "arxiv",
@@ -444,6 +496,284 @@
     "summary": "Tool-using language-model agents introduce security failures that go beyond unsafe text: they can disclose protected objects, write persistent memory, send messages, modify databases, or trigger harmful code and tool effects. Existing evaluations often collapse these stages into a single attack success rate, making it difficult to tell whether a model merely agreed with an attacker or actually produced observable harm. We introduce SafeClawBench, a staged benchmark for tool-using agent security ",
     "url": "http://arxiv.org/abs/2606.18356v1",
     "published_at": "2026-06-16T18:04:45Z",
-    "collected_at": "2026-06-29T05:53:33.316207+00:00"
+    "collected_at": "2026-06-29T05:53:33.316207+00:00",
+    "normalized_score": 0.5
+  },
+  {
+    "source": "lobsters",
+    "id": "lobsters:ibji5x",
+    "title": "Convolutional Neural Networks in APL (2019)",
+    "url": "https://dl.acm.org/doi/epdf/10.1145/3315454.3329960",
+    "score": 3,
+    "tags": [
+      "ai",
+      "apl"
+    ],
+    "num_comments": 0,
+    "collected_at": "2026-06-29T08:38:41.915242+00:00",
+    "normalized_score": 0.094
+  },
+  {
+    "source": "lobsters",
+    "id": "lobsters:4srepl",
+    "title": "MAX models can now run on Apple silicon GPUs",
+    "url": "https://forum.modular.com/t/max-models-can-now-run-on-apple-silicon-gpus/3283",
+    "score": 5,
+    "tags": [
+      "ai",
+      "mac"
+    ],
+    "num_comments": 4,
+    "collected_at": "2026-06-29T08:38:41.915285+00:00",
+    "normalized_score": 0.156
+  },
+  {
+    "source": "lobsters",
+    "id": "lobsters:bxhmjt",
+    "title": "AI Learns the \"Dark Art\" of RF Chip Design",
+    "url": "https://spectrum.ieee.org/ai-radio-chip-design",
+    "score": 4,
+    "tags": [
+      "ai"
+    ],
+    "num_comments": 10,
+    "collected_at": "2026-06-29T08:38:41.915296+00:00",
+    "normalized_score": 0.125
+  },
+  {
+    "source": "lobsters",
+    "id": "lobsters:6c5c4j",
+    "title": "Comparing Transformers and Hybrid Models at the Token Level",
+    "url": "https://arxiv.org/pdf/2606.20936",
+    "score": 5,
+    "tags": [
+      "ai",
+      "pdf"
+    ],
+    "num_comments": 0,
+    "collected_at": "2026-06-29T08:38:41.915304+00:00",
+    "normalized_score": 0.156
+  },
+  {
+    "source": "lobsters",
+    "id": "lobsters:mhjlia",
+    "title": "GPT2-BASIC: Portable Machine Intelligence in BASIC",
+    "url": "https://github.com/tsotchke/gpt2-basic",
+    "score": 1,
+    "tags": [
+      "ai"
+    ],
+    "num_comments": 0,
+    "collected_at": "2026-06-29T08:38:41.915313+00:00",
+    "normalized_score": 0.031
+  },
+  {
+    "source": "lobsters",
+    "id": "lobsters:n2r6r6",
+    "title": "\"How to Think About AI\": Cory Doctorow on Big Tech, Understanding AI, Labor Automation & More",
+    "url": "https://www.youtube.com/watch?v=OBUzl_IaWIw",
+    "score": 32,
+    "tags": [
+      "ai",
+      "philosophy",
+      "video"
+    ],
+    "num_comments": 3,
+    "collected_at": "2026-06-29T08:38:41.915320+00:00",
+    "normalized_score": 1.0
+  },
+  {
+    "source": "lobsters",
+    "id": "lobsters:hvd5hk",
+    "title": "What does it mean to be a mathematician when AI does the math?",
+    "url": "https://spectrum.ieee.org/ai-in-mathematics",
+    "score": 15,
+    "tags": [
+      "ai",
+      "math"
+    ],
+    "num_comments": 14,
+    "collected_at": "2026-06-29T08:38:41.915326+00:00",
+    "normalized_score": 0.469
+  },
+  {
+    "source": "lobsters",
+    "id": "lobsters:qsp10b",
+    "title": "AI Agents Enable Adaptive Computer Worms",
+    "url": "https://cleverhans.io/worm.html",
+    "score": 2,
+    "tags": [
+      "ai",
+      "security"
+    ],
+    "num_comments": 0,
+    "collected_at": "2026-06-29T08:38:41.915333+00:00",
+    "normalized_score": 0.062
+  },
+  {
+    "source": "lobsters",
+    "id": "lobsters:tjpsew",
+    "title": "Chatbots vs Ozone",
+    "url": "https://blog.dshr.org/2026/05/chatbots-vs-ozone.html",
+    "score": 7,
+    "tags": [
+      "ai",
+      "science"
+    ],
+    "num_comments": 4,
+    "collected_at": "2026-06-29T08:38:41.915338+00:00",
+    "normalized_score": 0.219
+  },
+  {
+    "source": "lobsters",
+    "id": "lobsters:8soruc",
+    "title": "Echoes of the AI Winter",
+    "url": "https://netzhansa.com/echoes-of-the-ai-winter/",
+    "score": 14,
+    "tags": [
+      "ai",
+      "lisp"
+    ],
+    "num_comments": 37,
+    "collected_at": "2026-06-29T08:38:41.915343+00:00",
+    "normalized_score": 0.438
+  },
+  {
+    "source": "lobsters",
+    "id": "lobsters:frfsss",
+    "title": "Using the Gini Coefficient to Plan Edge Capacity",
+    "url": "https://www.fastly.com/blog/using-gini-coefficient-plan-edge-capacity",
+    "score": 4,
+    "tags": [
+      "ai",
+      "distributed",
+      "networking",
+      "scaling"
+    ],
+    "num_comments": 0,
+    "collected_at": "2026-06-29T08:38:41.915351+00:00",
+    "normalized_score": 0.125
+  },
+  {
+    "source": "lobsters",
+    "id": "lobsters:5ej4m6",
+    "title": "Unlimited-OCR: One-shot Long-horizon OCR",
+    "url": "https://github.com/baidu/Unlimited-OCR",
+    "score": 3,
+    "tags": [
+      "ai"
+    ],
+    "num_comments": 0,
+    "collected_at": "2026-06-29T08:38:41.915358+00:00",
+    "normalized_score": 0.094
+  },
+  {
+    "source": "lobsters",
+    "id": "lobsters:jrj4o3",
+    "title": "VibeThinker-3B: Exploring the Frontier of Verifiable Reasoning in Small Language Models",
+    "url": "https://arxiv.org/abs/2606.16140",
+    "score": 2,
+    "tags": [
+      "ai"
+    ],
+    "num_comments": 1,
+    "collected_at": "2026-06-29T08:38:41.915364+00:00",
+    "normalized_score": 0.062
+  },
+  {
+    "source": "lobsters",
+    "id": "lobsters:lpn1cr",
+    "title": "Event Tensor: A Unified Abstraction for Compiling Dynamic Megakernel",
+    "url": "https://arxiv.org/abs/2604.13327",
+    "score": 3,
+    "tags": [
+      "ai",
+      "compilers"
+    ],
+    "num_comments": 0,
+    "collected_at": "2026-06-29T08:38:41.915369+00:00",
+    "normalized_score": 0.094
+  },
+  {
+    "source": "lobsters",
+    "id": "lobsters:j04tzc",
+    "title": "TIRx: An Open Compiler Stack for Evolving Frontier ML Kernels",
+    "url": "https://tvm.apache.org/2026/06/22/tirx",
+    "score": 2,
+    "tags": [
+      "ai",
+      "compilers"
+    ],
+    "num_comments": 0,
+    "collected_at": "2026-06-29T08:38:41.915376+00:00",
+    "normalized_score": 0.062
+  },
+  {
+    "source": "lobsters",
+    "id": "lobsters:luosjw",
+    "title": "A fully local voice assistant setup",
+    "url": "https://blog.platypush.tech/article/Local-voice-assistant",
+    "score": 9,
+    "tags": [
+      "ai",
+      "python"
+    ],
+    "num_comments": 2,
+    "collected_at": "2026-06-29T08:38:41.915381+00:00",
+    "normalized_score": 0.281
+  },
+  {
+    "source": "lobsters",
+    "id": "lobsters:vwin4l",
+    "title": "Prompt Injection as Role Confusion",
+    "url": "https://role-confusion.github.io",
+    "score": 3,
+    "tags": [
+      "ai"
+    ],
+    "num_comments": 1,
+    "collected_at": "2026-06-29T08:38:41.915387+00:00",
+    "normalized_score": 0.094
+  },
+  {
+    "source": "lobsters",
+    "id": "lobsters:n1xvd7",
+    "title": "Munich 1991: the Roots of the Current AI Boom",
+    "url": "https://people.idsia.ch/~juergen/ai-boom-roots-munich-1991.html",
+    "score": 10,
+    "tags": [
+      "ai",
+      "historical"
+    ],
+    "num_comments": 0,
+    "collected_at": "2026-06-29T08:38:41.915393+00:00",
+    "normalized_score": 0.312
+  },
+  {
+    "source": "lobsters",
+    "id": "lobsters:lhn5w5",
+    "title": "Reverse Engineering the Qualcomm NPU Compiler",
+    "url": "https://datavorous.github.io/writing/qairt/",
+    "score": 6,
+    "tags": [
+      "ai",
+      "reversing"
+    ],
+    "num_comments": 0,
+    "collected_at": "2026-06-29T08:38:41.915405+00:00",
+    "normalized_score": 0.188
+  },
+  {
+    "source": "lobsters",
+    "id": "lobsters:inzoi4",
+    "title": "Agent memory on Elasticsearch: hybrid retrieval and DLS",
+    "url": "https://www.elastic.co/search-labs/blog/agent-memory-elasticsearch",
+    "score": 0,
+    "tags": [
+      "ai"
+    ],
+    "num_comments": 0,
+    "collected_at": "2026-06-29T08:38:41.915411+00:00",
+    "normalized_score": 0.0
   }
 ]

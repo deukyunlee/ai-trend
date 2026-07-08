@@ -4,135 +4,144 @@
     "id": "48704373",
     "title": "Wayfinder Router: deterministic routing of queries between local and hosted LLM",
     "url": "https://github.com/itsthelore/wayfinder-router",
-    "score": 32,
-    "collected_at": "2026-06-28T06:45:40.424415+00:00",
-    "normalized_score": 0.025
+    "score": 47,
+    "collected_at": "2026-06-28T08:01:53.562911+00:00",
+    "normalized_score": 0.036
   },
   {
     "source": "hackernews",
     "id": "48703968",
     "title": "Ford hired AI and sacked humans. It backfired badly",
     "url": "https://www.the-independent.com/tech/ford-ai-automation-human-workers-b3003787.html",
-    "score": 122,
-    "collected_at": "2026-06-28T06:45:43.160979+00:00",
-    "normalized_score": 0.103
+    "score": 161,
+    "collected_at": "2026-06-28T08:01:56.518385+00:00",
+    "normalized_score": 0.134
   },
   {
     "source": "hackernews",
     "id": "48648493",
     "title": "Ancient Tablets Show Markets Worked 4k Years Before Economists Explained Them",
     "url": "https://thedailyeconomy.org/article/ancient-clay-tablets-show-markets-worked-4000-years-before-economists-explained-them/",
-    "score": 37,
-    "collected_at": "2026-06-28T06:45:43.530788+00:00",
-    "normalized_score": 0.03
-  },
-  {
-    "source": "hackernews",
-    "id": "48660021",
-    "title": "AI learns the “dark art” of RFIC design",
-    "url": "https://spectrum.ieee.org/ai-radio-chip-design",
-    "score": 223,
-    "collected_at": "2026-06-28T06:45:45.755795+00:00",
-    "normalized_score": 0.191
+    "score": 48,
+    "collected_at": "2026-06-28T08:01:56.884811+00:00",
+    "normalized_score": 0.036
   },
   {
     "source": "hackernews",
     "id": "48697958",
     "title": "Asian AI startups launch Mythos-like models",
     "url": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/",
-    "score": 209,
-    "collected_at": "2026-06-28T06:45:46.494755+00:00",
-    "normalized_score": 0.179
+    "score": 218,
+    "collected_at": "2026-06-28T08:01:59.484620+00:00",
+    "normalized_score": 0.184
+  },
+  {
+    "source": "hackernews",
+    "id": "48660021",
+    "title": "AI learns the “dark art” of RFIC design",
+    "url": "https://spectrum.ieee.org/ai-radio-chip-design",
+    "score": 228,
+    "collected_at": "2026-06-28T08:01:59.857212+00:00",
+    "normalized_score": 0.193
+  },
+  {
+    "source": "hackernews",
+    "id": "48703452",
+    "title": "The best response to AI slop and online noise is from Robin Williams",
+    "url": "https://jayacunzo.com/blog/your-move-chief",
+    "score": 193,
+    "collected_at": "2026-06-28T08:02:02.073489+00:00",
+    "normalized_score": 0.162
   },
   {
     "source": "hackernews",
     "id": "48664063",
     "title": "Reducing tick density along recreational trails in Ottawa, Canada",
     "url": "https://www.sciencedirect.com/science/article/pii/S1877959X26000476",
-    "score": 186,
-    "collected_at": "2026-06-28T06:45:48.701696+00:00",
-    "normalized_score": 0.159
-  },
-  {
-    "source": "hackernews",
-    "id": "48703452",
-    "title": "Response to AI slop is from Robin Williams",
-    "url": "https://jayacunzo.com/blog/your-move-chief",
-    "score": 168,
-    "collected_at": "2026-06-28T06:45:49.092548+00:00",
-    "normalized_score": 0.143
+    "score": 193,
+    "collected_at": "2026-06-28T08:02:02.811864+00:00",
+    "normalized_score": 0.162
   },
   {
     "source": "hackernews",
     "id": "48696585",
     "title": "DSpark: Speculative decoding accelerates LLM inference [pdf]",
     "url": "https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf",
-    "score": 751,
-    "collected_at": "2026-06-28T06:45:49.823867+00:00",
-    "normalized_score": 0.649
+    "score": 755,
+    "collected_at": "2026-06-28T08:02:03.552984+00:00",
+    "normalized_score": 0.65
   },
   {
     "source": "hackernews",
     "id": "48701984",
     "title": "What Ozempic does to the gut-brain axis",
     "url": "https://www.psychologytoday.com/au/blog/mood-by-microbe/202606/what-ozempic-does-to-the-gut-brain-axis",
-    "score": 141,
-    "collected_at": "2026-06-28T06:45:51.665343+00:00",
-    "normalized_score": 0.12
+    "score": 153,
+    "collected_at": "2026-06-28T08:02:05.856799+00:00",
+    "normalized_score": 0.127
   },
   {
     "source": "hackernews",
     "id": "48701512",
     "title": "Show HN: Adrafinil – keep a lid-closed Mac awake only while agents work",
     "url": "https://github.com/kageroumado/adrafinil",
-    "score": 107,
-    "collected_at": "2026-06-28T06:45:53.502020+00:00",
-    "normalized_score": 0.09
+    "score": 108,
+    "collected_at": "2026-06-28T08:02:07.806214+00:00",
+    "normalized_score": 0.088
   },
   {
     "source": "hackernews",
     "id": "48689028",
     "title": "Previewing GPT‑5.6 Sol: a next-generation model",
     "url": "https://openai.com/index/previewing-gpt-5-6-sol/",
-    "score": 1109,
-    "collected_at": "2026-06-28T06:45:57.552441+00:00",
-    "normalized_score": 0.96
+    "score": 1111,
+    "collected_at": "2026-06-28T08:02:11.143768+00:00",
+    "normalized_score": 0.958
   },
   {
     "source": "hackernews",
     "id": "48701615",
     "title": "Everyone feared AI taking over; the real danger is AI serving just the few",
     "url": "https://news.ycombinator.com/item?id=48701615",
-    "score": 54,
-    "collected_at": "2026-06-28T06:45:59.406360+00:00",
-    "normalized_score": 0.044
+    "score": 58,
+    "collected_at": "2026-06-28T08:02:12.614799+00:00",
+    "normalized_score": 0.045
   },
   {
     "source": "hackernews",
     "id": "48694631",
     "title": "Anatomy of a Failed (Nation-State?) Attack",
     "url": "https://grack.com/blog/2026/06/25/dissecting-a-failed-nation-state-attack/",
-    "score": 140,
-    "collected_at": "2026-06-28T06:46:02.027878+00:00",
-    "normalized_score": 0.119
+    "score": 141,
+    "collected_at": "2026-06-28T08:02:13.712450+00:00",
+    "normalized_score": 0.117
   },
   {
     "source": "hackernews",
     "id": "48645510",
     "title": "Task Failed Successfully: Saturating NIC and Disk Bandwidth",
     "url": "https://blog.mrcroxx.com/posts/task-failed-successfully-saturating-nic-and-disk-bandwidth/",
-    "score": 41,
-    "collected_at": "2026-06-28T06:46:02.416327+00:00",
-    "normalized_score": 0.033
+    "score": 45,
+    "collected_at": "2026-06-28T08:02:14.447957+00:00",
+    "normalized_score": 0.034
   },
   {
     "source": "hackernews",
     "id": "48693912",
     "title": "Show HN: Hacker News on a train station-style flip board",
     "url": "https://popflame.quickish.space/hn-flipboard/",
-    "score": 105,
-    "collected_at": "2026-06-28T06:46:08.290697+00:00",
-    "normalized_score": 0.089
+    "score": 107,
+    "collected_at": "2026-06-28T08:02:20.403315+00:00",
+    "normalized_score": 0.088
+  },
+  {
+    "source": "hackernews",
+    "id": "48704571",
+    "title": "Small Teams Will Ship More Software Than They Can Maintain",
+    "url": "https://www.vincentschmalbach.com/small-teams-will-ship-more-software-than-they-can-maintain/",
+    "score": 6,
+    "collected_at": "2026-06-28T08:02:24.836316+00:00",
+    "normalized_score": 0.0
   },
   {
     "source": "hackernews",
@@ -140,17 +149,8 @@
     "title": "Show HN: KV-psi, using Linux PSI to to trim an LLM KV cache",
     "url": "https://github.com/infiniteregrets/kv-psi",
     "score": 6,
-    "collected_at": "2026-06-28T06:46:10.866506+00:00",
-    "normalized_score": 0.003
-  },
-  {
-    "source": "hackernews",
-    "id": "48702053",
-    "title": "The AI Industry as You Know It Died Today",
-    "url": "https://www.thealgorithmicbridge.com/p/the-ai-industry-as-you-know-it-died",
-    "score": 29,
-    "collected_at": "2026-06-28T06:46:16.209995+00:00",
-    "normalized_score": 0.023
+    "collected_at": "2026-06-28T08:02:27.432283+00:00",
+    "normalized_score": 0.0
   },
   {
     "source": "hackernews",
@@ -158,17 +158,8 @@
     "title": "OpenAI leans toward waiting until next year for IPO",
     "url": "https://www.nytimes.com/2026/06/25/technology/openai-ipo-artificial-intelligence.html",
     "score": 176,
-    "collected_at": "2026-06-28T06:46:16.967126+00:00",
-    "normalized_score": 0.15
-  },
-  {
-    "source": "hackernews",
-    "id": "48701902",
-    "title": "Peppa Pig studio wants to clone child actors' voices with AI indefinitely",
-    "url": "https://www.gadgetreview.com/peppa-pigs-ai-voice-clause-draws-nearly-1000-industry-objections",
-    "score": 20,
-    "collected_at": "2026-06-28T06:46:17.702003+00:00",
-    "normalized_score": 0.015
+    "collected_at": "2026-06-28T08:02:30.552151+00:00",
+    "normalized_score": 0.147
   },
   {
     "source": "hackernews",
@@ -176,8 +167,8 @@
     "title": "AI in mathematics is forcing big questions",
     "url": "https://spectrum.ieee.org/ai-in-mathematics",
     "score": 201,
-    "collected_at": "2026-06-28T06:46:18.071861+00:00",
-    "normalized_score": 0.172
+    "collected_at": "2026-06-28T08:02:32.029994+00:00",
+    "normalized_score": 0.169
   },
   {
     "source": "hackernews",
@@ -185,17 +176,17 @@
     "title": "Ultrasound imaging of the brain",
     "url": "https://alephneuro.com/blog/ultrasound-brain",
     "score": 316,
-    "collected_at": "2026-06-28T06:46:19.168851+00:00",
-    "normalized_score": 0.272
+    "collected_at": "2026-06-28T08:02:32.772390+00:00",
+    "normalized_score": 0.269
   },
   {
     "source": "hackernews",
-    "id": "48699617",
-    "title": "Doctors suspected man had brain cancer. He had worms",
-    "url": "https://arstechnica.com/health/2026/06/doctors-suspected-man-had-brain-cancer-he-actually-had-worms/",
-    "score": 66,
-    "collected_at": "2026-06-28T06:46:19.535872+00:00",
-    "normalized_score": 0.055
+    "id": "48699575",
+    "title": "Heartbeat shapes how your brain processes information",
+    "url": "https://www.science.org/content/article/your-heartbeat-quietly-shapes-how-your-brain-processes-information",
+    "score": 11,
+    "collected_at": "2026-06-28T08:02:33.885051+00:00",
+    "normalized_score": 0.004
   },
   {
     "source": "hackernews",
@@ -203,26 +194,44 @@
     "title": "U.S. allows Anthropic to release Mythos AI to ‘trusted’ US organizations",
     "url": "https://www.semafor.com/article/06/27/2026/us-releases-powerful-anthropic-model-mythos-to-some-us-companies",
     "score": 545,
-    "collected_at": "2026-06-28T06:46:20.680799+00:00",
-    "normalized_score": 0.47
+    "collected_at": "2026-06-28T08:02:34.253564+00:00",
+    "normalized_score": 0.467
+  },
+  {
+    "source": "hackernews",
+    "id": "48702053",
+    "title": "The AI Industry as You Know It Died Today",
+    "url": "https://www.thealgorithmicbridge.com/p/the-ai-industry-as-you-know-it-died",
+    "score": 29,
+    "collected_at": "2026-06-28T08:02:34.622605+00:00",
+    "normalized_score": 0.02
+  },
+  {
+    "source": "hackernews",
+    "id": "48699617",
+    "title": "Doctors suspected man had brain cancer. He had worms",
+    "url": "https://arstechnica.com/health/2026/06/doctors-suspected-man-had-brain-cancer-he-actually-had-worms/",
+    "score": 69,
+    "collected_at": "2026-06-28T08:02:34.989346+00:00",
+    "normalized_score": 0.055
   },
   {
     "source": "hackernews",
     "id": "48690101",
     "title": "U.S. government will decide who gets to use GPT-5.6",
     "url": "https://www.washingtonpost.com/technology/2026/06/26/openai-says-us-government-will-vet-users-its-latest-ai-model/",
-    "score": 1155,
-    "collected_at": "2026-06-28T06:46:21.051052+00:00",
+    "score": 1159,
+    "collected_at": "2026-06-28T08:02:35.365420+00:00",
     "normalized_score": 1.0
   },
   {
     "source": "hackernews",
-    "id": "48704720",
-    "title": "Oracle stock worst week since 2001 dot-com bust, AI financing concerns escalate",
-    "url": "https://www.cnbc.com/2026/06/26/oracle-stock-ends-worst-week-since-2001-as-investors-dwell-on-finances.html",
-    "score": 3,
-    "collected_at": "2026-06-28T06:46:21.419501+00:00",
-    "normalized_score": 0.0
+    "id": "48701902",
+    "title": "Peppa Pig studio wants to clone child actors' voices with AI indefinitely",
+    "url": "https://www.gadgetreview.com/peppa-pigs-ai-voice-clause-draws-nearly-1000-industry-objections",
+    "score": 20,
+    "collected_at": "2026-06-28T08:02:35.732311+00:00",
+    "normalized_score": 0.012
   },
   {
     "source": "hackernews",
@@ -230,26 +239,8 @@
     "title": "The gap between open weights LLMs and closed source LLMs",
     "url": "https://blog.doubleword.ai/frontier-os-llm",
     "score": 298,
-    "collected_at": "2026-06-28T06:46:22.159901+00:00",
-    "normalized_score": 0.256
-  },
-  {
-    "source": "hackernews",
-    "id": "48699575",
-    "title": "Heartbeat shapes how your brain processes information",
-    "url": "https://www.science.org/content/article/your-heartbeat-quietly-shapes-how-your-brain-processes-information",
-    "score": 9,
-    "collected_at": "2026-06-28T06:46:23.988020+00:00",
-    "normalized_score": 0.005
-  },
-  {
-    "source": "hackernews",
-    "id": "48699483",
-    "title": "Anthropic says Alibaba used 25k accounts to mine Claude",
-    "url": "https://arstechnica.com/tech-policy/2026/06/anthropic-claims-alibaba-defied-trump-to-attack-claude-and-steal-capabilities/",
-    "score": 34,
-    "collected_at": "2026-06-28T06:46:24.723924+00:00",
-    "normalized_score": 0.027
+    "collected_at": "2026-06-28T08:02:36.979642+00:00",
+    "normalized_score": 0.253
   },
   {
     "source": "hackernews",
@@ -257,8 +248,8 @@
     "title": "Show HN: Smart model routing directly in Claude, Codex and Cursor",
     "url": "https://github.com/workweave/router",
     "score": 203,
-    "collected_at": "2026-06-28T06:46:25.463956+00:00",
-    "normalized_score": 0.174
+    "collected_at": "2026-06-28T08:02:39.576280+00:00",
+    "normalized_score": 0.171
   },
   {
     "source": "hackernews",
@@ -266,8 +257,17 @@
     "title": "What happened after 2k people tried to hack my AI assistant",
     "url": "https://www.fernandoi.cl/posts/hackmyclaw/",
     "score": 370,
-    "collected_at": "2026-06-28T06:46:26.937711+00:00",
-    "normalized_score": 0.319
+    "collected_at": "2026-06-28T08:02:39.940808+00:00",
+    "normalized_score": 0.316
+  },
+  {
+    "source": "hackernews",
+    "id": "48672779",
+    "title": "Political bias in AI: Where the AI models stand",
+    "url": "https://trakkr.ai/bias",
+    "score": 176,
+    "collected_at": "2026-06-28T08:02:40.319096+00:00",
+    "normalized_score": 0.147
   },
   {
     "source": "arxiv",
@@ -275,7 +275,8 @@
     "title": "Semantic Early-Stopping for Iterative LLM Agent Loops",
     "summary": "Multi-agent large language model (LLM) loops, for example a Writer that drafts and a Critic that revises, are almost always terminated by a fixed iteration cap (max_iterations). This is a syntactic kill-switch: it is blind to whether the answer is still improving, so it over-spends tokens on easy inputs and truncates hard ones. We study semantic early-stopping: the loop halts when consecutive draft embeddings stop changing in meaning (cosine distance with a patience window) and the answer's meas",
     "url": "http://arxiv.org/abs/2606.27009v1",
-    "collected_at": "2026-06-28T06:46:27.314400+00:00",
+    "published_at": "2026-06-25T13:24:21Z",
+    "collected_at": "2026-06-28T08:02:44.617795+00:00",
     "normalized_score": 0.5
   },
   {
@@ -284,7 +285,8 @@
     "title": "HiLSVA: Design and Evaluation of a Human-in-the-Loop Agentic System for Scientific Visualization",
     "summary": "Large language model (LLM) agents enable natural language interaction for scientific visualization (SciVis). Still, prior systems have essentially prioritized autonomy over human analytical control, thereby limiting transparency and human oversight. We present HiLSVA, a human-in-the-loop agentic system that supports mixed-initiative SciVis workflows. HiLSVA integrates a plan-first multi-agent architecture with explicit human oversight, stepwise provenance tracking, and learn-at-test-time adaptat",
     "url": "http://arxiv.org/abs/2606.26614v1",
-    "collected_at": "2026-06-28T06:46:27.314420+00:00",
+    "published_at": "2026-06-25T05:19:07Z",
+    "collected_at": "2026-06-28T08:02:44.617844+00:00",
     "normalized_score": 0.5
   },
   {
@@ -293,7 +295,8 @@
     "title": "PaperClaw: Harnessing Agents for Autonomous Research and Human-in-the-Loop Refinement",
     "summary": "Large language models have become capable reasoners and tool users that write and run code and search the literature, which makes automating the research process itself a realistic goal. We present PAPERCLAW, a harnessed multi-agent system that carries a project autonomously, from a field of study to a finished paper. PAPERCLAW curates a domain from a field's live literature, datasets, and code; brainstorms it into an idea with a pre-registered main-result contract; and drives a stoppable hypoth",
     "url": "http://arxiv.org/abs/2606.22610v1",
-    "collected_at": "2026-06-28T06:46:27.314426+00:00",
+    "published_at": "2026-06-21T17:37:01Z",
+    "collected_at": "2026-06-28T08:02:44.617856+00:00",
     "normalized_score": 0.5
   },
   {
@@ -302,7 +305,8 @@
     "title": "Bridging Creative Intent and Visual Quality: Creator-Driven Recurrent Video Generation with Agentic Feedback Loops",
     "summary": "Generative AI has made content creation increasingly accessible, but many AI-generated videos lack narrative coherence and creative direction, issues that become more substantial at longer durations. Unlike coding, where AI generation benefits from reliable feedback and techniques such as recurrent self-improvement, video generation requires subjective feedback about plot, scenes, and narrative, which naturally motivates approaches that incorporate human creative direction. We introduce CHIEF, a",
     "url": "http://arxiv.org/abs/2606.18591v1",
-    "collected_at": "2026-06-28T06:46:27.314429+00:00",
+    "published_at": "2026-06-17T01:39:30Z",
+    "collected_at": "2026-06-28T08:02:44.617866+00:00",
     "normalized_score": 0.5
   },
   {
@@ -311,7 +315,8 @@
     "title": "A T-API-Compliant ReAct Agentic Loop for Optical Networks: Generic vs. Domain-Specific Tool Abstractions",
     "summary": "Optical networks need intent-driven, closed-loop agentic management, a key enabler for higher autonomy levels. We present the first T-API-compliant reasoning and act (ReAct) loop. We show that domain-specific composite tools achieve 90% oracle-validated correctness with threefold token savings compared to generic tools.",
     "url": "http://arxiv.org/abs/2606.18000v1",
-    "collected_at": "2026-06-28T06:46:27.314433+00:00",
+    "published_at": "2026-06-16T14:47:16Z",
+    "collected_at": "2026-06-28T08:02:44.617877+00:00",
     "normalized_score": 0.5
   },
   {
@@ -320,7 +325,8 @@
     "title": "Where Do CoT Training Gains Land in LLM based Agents?",
     "summary": "Chain-of-thought (CoT) reasoning is widely used in language-model agents, but prior work has shown that verbalized CoT is not always faithful and may instead reflect post-hoc reasoning, which means the model already knows the answer before reasoning. We therefore ask what CoT training is actually improving: is the model getting better at changing its action through generated reasoning, or is it getting better at predicting the action directly from the prompt? We study this question by comparing ",
     "url": "http://arxiv.org/abs/2606.26935v1",
-    "collected_at": "2026-06-28T06:46:27.818949+00:00",
+    "published_at": "2026-06-25T12:09:16Z",
+    "collected_at": "2026-06-28T08:02:44.982558+00:00",
     "normalized_score": 0.5
   },
   {
@@ -329,7 +335,8 @@
     "title": "A Deterministic Control Plane for LLM Coding Agents",
     "summary": "LLM coding harnesses grant agents broad file and shell access, yet the configuration layer that steers them -- rules files, agent definitions, IDE-specific markdown -- is largely unmanaged. A prevalence study of 10,008 public GitHub repositories (n=6,145 agent config files) finds that agent configurations propagate as undeclared shared components: 10.1% of tracked paths are SHA-256 exact duplicates across independent repositories (fork-adjusted, threshold-independent), with 75.5% of clone pairs ",
     "url": "http://arxiv.org/abs/2606.26924v1",
-    "collected_at": "2026-06-28T06:46:27.818979+00:00",
+    "published_at": "2026-06-25T12:02:18Z",
+    "collected_at": "2026-06-28T08:02:44.982597+00:00",
     "normalized_score": 0.5
   },
   {
@@ -338,7 +345,8 @@
     "title": "EconSimulacra: A Digital Twin Platform of Socio-Economic Systems Powered by LLM Agents",
     "summary": "Real-world social behavior emerges from tightly coupled domains: economic conditions shape mobility and social interactions, while online attention and offline activity feed back into local popularity and consumer behavior. Capturing these feedback loops requires artificial societies in which agents carry experiences from one domain into decisions in another. Large language models (LLMs) provide a promising foundation for such societies. However, existing LLM-based simulators typically model dom",
     "url": "http://arxiv.org/abs/2606.26883v1",
-    "collected_at": "2026-06-28T06:46:27.818985+00:00",
+    "published_at": "2026-06-25T11:13:13Z",
+    "collected_at": "2026-06-28T08:02:44.982608+00:00",
     "normalized_score": 0.5
   },
   {
@@ -347,7 +355,8 @@
     "title": "Agents That Know Too Much: A Data-Centric Survey of Privacy in LLM Agents",
     "summary": "Large language model agents increasingly query databases, search document collections, call external APIs, remember past interactions, and act on a user's behalf. As they move from answering questions to operating over sensitive data, privacy becomes harder to enforce. An agent touches many data sources, runs multi-step workflows, keeps state across sessions, and acts with delegated permissions. Sensitive information can therefore leak not only through its final answer but through the queries it",
     "url": "http://arxiv.org/abs/2606.26627v1",
-    "collected_at": "2026-06-28T06:46:27.818989+00:00",
+    "published_at": "2026-06-25T05:44:18Z",
+    "collected_at": "2026-06-28T08:02:44.982617+00:00",
     "normalized_score": 0.5
   },
   {
@@ -356,7 +365,8 @@
     "title": "NOVA: A Verification-Aware Agent Harness for Architecture Evolution in Industrial Recommender Systems",
     "summary": "Industrial advertising recommender models are continuously improved through architecture evolution. Upgrades such as RankMixer, TokenMixer-Large, and MixFormer show that better structures remain a key source of quality and business gains. Yet developing such upgrades in production is expert-intensive and difficult to scale. Existing automation is insufficient: AutoML mainly tunes hyper-parameters, while effective gains often require cross-module changes under strict constraints; generic LLM codi",
     "url": "http://arxiv.org/abs/2606.27243v1",
-    "collected_at": "2026-06-28T06:46:28.133666+00:00",
+    "published_at": "2026-06-25T16:30:39Z",
+    "collected_at": "2026-06-28T08:02:51.245878+00:00",
     "normalized_score": 0.5
   },
   {
@@ -365,7 +375,8 @@
     "title": "A Process Harness for Uplifting Legacy Workflows to Agentic BPM: Design and Realization in CUGA FLO",
     "summary": "We introduce the process harness, a new mechanism for uplifting legacy workflows into Agentic Business Process Management (Agentic BPM) without replacing the underlying workflow engine. A process harness places a policy-governed agentic layer around a deterministic workflow engine, intercepting designated control points to contribute reasoning, adaptation, and oversight while the engine retains structural authority over the process. To define the process harness rigorously, we develop the Task-D",
     "url": "http://arxiv.org/abs/2606.27188v1",
-    "collected_at": "2026-06-28T06:46:28.133701+00:00",
+    "published_at": "2026-06-25T15:50:42Z",
+    "collected_at": "2026-06-28T08:02:51.245912+00:00",
     "normalized_score": 0.5
   },
   {
@@ -374,7 +385,8 @@
     "title": "The Interplay of Harness Design and Post-Training in LLM Agents",
     "summary": "Tool-integrated LLM agents are often wrapped within a harness: the scaffolding that determines which tools are exposed, how they are described, and what auxiliary information accompanies each per-step observation. While agents are routinely post-trained, this scaffolding is typically treated as a fixed engineering detail, with design effort limited to the training-free regime. Moreover, existing post-training algorithms assume a static environment, even though tool environments and tasks often s",
     "url": "http://arxiv.org/abs/2606.25447v1",
-    "collected_at": "2026-06-28T06:46:28.133711+00:00",
+    "published_at": "2026-06-24T06:23:02Z",
+    "collected_at": "2026-06-28T08:02:51.245924+00:00",
     "normalized_score": 0.5
   },
   {
@@ -383,7 +395,8 @@
     "title": "ActPlane: Programmable OS-Level Policy Enforcement for Agent Harnesses",
     "summary": "AI agents increasingly run in production through harnesses, the software around the LLM, including an engine that enforces safety and effectiveness policies, e.g., 'run tests before committing.' Enforcing these policies requires bridging a semantic gap: policy intent is expressed in underspecified natural language, while enforcement must act on concrete system actions, e.g., which test to run. Many policies also define event ordering or data flow actions. Yet existing approaches fall short. Tool",
     "url": "http://arxiv.org/abs/2606.25189v1",
-    "collected_at": "2026-06-28T06:46:28.133719+00:00",
+    "published_at": "2026-06-23T21:33:13Z",
+    "collected_at": "2026-06-28T08:02:51.245933+00:00",
     "normalized_score": 0.5
   },
   {
@@ -392,7 +405,8 @@
     "title": "AOHP: An Open-Source OS-Level Agent Harness for Personalized, Efficient and Secure Interaction",
     "summary": "AI agents are driving a new software paradigm, with the ability to autonomously call tools, extract information, manage memory, and complete tasks that span applications and data sources. Most existing end-user operating systems, however, are designed for application-centric workflows and offer little native support for AI agents. This mismatch limits the wider adoption of agents and leads to execution overhead and safety risks when running agents on conventional systems. While the concept of ag",
     "url": "http://arxiv.org/abs/2606.23449v1",
-    "collected_at": "2026-06-28T06:46:28.133726+00:00",
+    "published_at": "2026-06-22T15:02:42Z",
+    "collected_at": "2026-06-28T08:02:51.245943+00:00",
     "normalized_score": 0.5
   },
   {
@@ -401,7 +415,8 @@
     "title": "IDEA: Insensitive to Dynamics Mismatch via Effect Alignment for Sim-to-Real Transfer in Multi-Agent Control",
     "summary": "Complex multi-agent control tasks remain challenging for traditional rule-based and model-based approaches, motivating the adoption of learning-based methods. However, learning-based methods often struggle with sim-to-real transfer because they rely on accurate dynamics modeling or system identification and learn policies in low-level control spaces that are highly sensitive to dynamics mismatch, making them costly and fragile in complex environments. To address this issue, we propose a sim-to-r",
     "url": "http://arxiv.org/abs/2606.26575v1",
-    "collected_at": "2026-06-28T06:46:28.523963+00:00",
+    "published_at": "2026-06-25T03:49:25Z",
+    "collected_at": "2026-06-28T08:02:51.604660+00:00",
     "normalized_score": 0.5
   },
   {
@@ -410,7 +425,8 @@
     "title": "OpenFinGym: A Verifiable Multi-Task Gym Environment for Evaluating Quant Agents",
     "summary": "Although large language model agents are increasingly applied to quantitative-finance workflows, their evaluation remains fragmented across isolated tasks, while the financial relevance of benchmark tasks is often overlooked. Yet financial workflows are inherently multi-stage, spanning interdependent tasks such as forecasting, strategy construction, risk management, and trading. Existing platforms typically focus on a single task, and can therefore overstate agent competence and fail to reveal w",
     "url": "http://arxiv.org/abs/2606.26350v1",
-    "collected_at": "2026-06-28T06:46:28.524000+00:00",
+    "published_at": "2026-06-24T19:42:55Z",
+    "collected_at": "2026-06-28T08:02:51.604690+00:00",
     "normalized_score": 0.5
   },
   {
@@ -419,7 +435,8 @@
     "title": "Data Facts: A Metadata Schema for Structured Data Exchange in the NANDini Multi-Agent Ecosystem",
     "summary": "NANDini (Networked Agents Natural Distillation of Interconnected Nodal Intelligence) envisions an automated ecosystem where intelligent agents independently create, process, and exchange data to drive decisions at scale. Realizing this vision requires infrastructure beyond agent discovery and communication: agents must be able to advertise, evaluate, and verify the datasets they hold.\n  Current protocols, including NANDA for federated registry and A2A and MCP for inter-agent messaging, address i",
     "url": "http://arxiv.org/abs/2606.26211v1",
-    "collected_at": "2026-06-28T06:46:28.524012+00:00",
+    "published_at": "2026-06-24T17:35:26Z",
+    "collected_at": "2026-06-28T08:02:51.604704+00:00",
     "normalized_score": 0.5
   },
   {
@@ -428,7 +445,8 @@
     "title": "Multi-Agent Goal Recognition with Team- and Goal-Conditioned Reinforcement Learning and Factorized Branch-and-Bound",
     "summary": "Multi-agent goal recognition asks an observer to jointly infer which agents act together and what each team is trying to achieve, so the hypothesis space grows combinatorially with the number of team partitions and goals per team. Real applications such as drone surveillance and collaborative robotics expose only the agents' trajectory, which forces the observer to rank team-goal hypotheses from behavior alone. Multi-Agent Goal Recognition with Branch-and-Bound (MAGR-BB) addresses this setting w",
     "url": "http://arxiv.org/abs/2606.25978v1",
-    "collected_at": "2026-06-28T06:46:28.524021+00:00",
+    "published_at": "2026-06-24T15:50:39Z",
+    "collected_at": "2026-06-28T08:02:51.604714+00:00",
     "normalized_score": 0.5
   },
   {
@@ -437,7 +455,8 @@
     "title": "MedGuards: Multi-Agent System for Reliable Medical Error Detection and Correction",
     "summary": "As Large Language Models (LLMs) are increasingly deployed in healthcare settings, accurate error detection and correction in generated or existing text becomes critical, as even minor mistakes can pose risks to patient safety. Existing methods for error detection and correction, including automated checks and heuristic-based approaches, do not generalize well across unseen datasets. In this paper, we propose MedGuards as a medical safety guardrail, which is a new framework that treats medical er",
     "url": "http://arxiv.org/abs/2606.25651v1",
-    "collected_at": "2026-06-28T06:46:28.524030+00:00",
+    "published_at": "2026-06-24T10:07:59Z",
+    "collected_at": "2026-06-28T08:02:51.604726+00:00",
     "normalized_score": 0.5
   },
   {
@@ -446,7 +465,8 @@
     "title": "ProfileFoundry: A Synthetic Person-Object Substrate for Privacy, Memory, and Tool-Use Evaluation in LLM Agent",
     "summary": "Foundation-model research increasingly needs data about people: user state, personal histories, relationships, contact-like fields, documents, and longitudinal updates. Real user data is difficult to share, perturb, audit, or redistribute responsibly, while independently generated fake fields rarely preserve the cross-field and temporal consistency needed for controlled evaluation. We present PROFILEFOUNDRY, a deterministic generator and fixed reference release of 100,000 adult synthetic Person ",
     "url": "http://arxiv.org/abs/2606.26403v1",
-    "collected_at": "2026-06-28T06:46:28.878557+00:00",
+    "published_at": "2026-06-24T21:43:36Z",
+    "collected_at": "2026-06-28T08:02:51.934674+00:00",
     "normalized_score": 0.5
   },
   {
@@ -455,7 +475,8 @@
     "title": "PlanBench-XL: Evaluating Long-Horizon Planning of LLM Tool-Use Agents in Large-Scale Tool Ecosystems",
     "summary": "LLM agents increasingly operate in large tool ecosystems, where real-world tasks require discovering relevant tools, inferring implicit sub-goals, and adapting to dynamic environments over long horizons. However, existing benchmarks rarely evaluate planning under retrieval-limited tool visibility. To address this gap, we introduce PlanBench-XL, an interactive benchmark of 327 retail tasks over 1,665 tools that tests whether agents can iteratively retrieve usable tools, invoke them to uncover int",
     "url": "http://arxiv.org/abs/2606.22388v1",
-    "collected_at": "2026-06-28T06:46:28.878583+00:00",
+    "published_at": "2026-06-21T08:29:12Z",
+    "collected_at": "2026-06-28T08:02:51.934709+00:00",
     "normalized_score": 0.5
   },
   {
@@ -464,7 +485,8 @@
     "title": "Don't Blindly Trust It: How Unreliable Feedback Breaks Tool-Using LLM Agents",
     "summary": "Tool-augmented agents are typically evaluated by their gains under reliable external feedback. Yet these gains leave open a key counterfactual: when feedback is unreliable, would the agent be better off receiving no task evidence? We study this question with a controlled matched-loop comparison that fixes the agent loop, prompt, action space, and decoding, while varying only the returned observation: faithful, misleading, or absent. Across question answering and fact verification, persistent mis",
     "url": "http://arxiv.org/abs/2606.21409v1",
-    "collected_at": "2026-06-28T06:46:28.878588+00:00",
+    "published_at": "2026-06-19T13:21:25Z",
+    "collected_at": "2026-06-28T08:02:51.934720+00:00",
     "normalized_score": 0.5
   },
   {
@@ -473,7 +495,8 @@
     "title": "SafeClawBench: Separating Semantic, Audit-Evidence, and Sandbox Harm in Tool-Using LLM Agents",
     "summary": "Tool-using language-model agents introduce security failures that go beyond unsafe text: they can disclose protected objects, write persistent memory, send messages, modify databases, or trigger harmful code and tool effects. Existing evaluations often collapse these stages into a single attack success rate, making it difficult to tell whether a model merely agreed with an attacker or actually produced observable harm. We introduce SafeClawBench, a staged benchmark for tool-using agent security ",
     "url": "http://arxiv.org/abs/2606.18356v1",
-    "collected_at": "2026-06-28T06:46:28.878592+00:00",
+    "published_at": "2026-06-16T18:04:45Z",
+    "collected_at": "2026-06-28T08:02:51.934729+00:00",
     "normalized_score": 0.5
   },
   {
@@ -482,16 +505,8 @@
     "title": "Cordon: Semantic Transactions for Tool-Using LLM Agents",
     "summary": "Tool-using LLM agents are shifting the unit of computation from explicit human-issued commands to model-driven tasks with stateful consequences. Yet today's agent runtimes still expose tools as isolated RPCs. This interface gives runtimes a convenient integration point, but it lacks a task-scoped execution boundary for commit, rollback, recovery, and audit across multi-step agent workflows. We argue that this mismatch calls for a runtime containment boundary rather than another per-call guardrai",
     "url": "http://arxiv.org/abs/2606.17573v1",
-    "collected_at": "2026-06-28T06:46:28.878595+00:00",
+    "published_at": "2026-06-16T06:21:14Z",
+    "collected_at": "2026-06-28T08:02:51.934737+00:00",
     "normalized_score": 0.5
-  },
-  {
-    "source": "hackernews",
-    "id": "48672779",
-    "title": "Political bias in AI: Where the AI models stand",
-    "url": "https://trakkr.ai/bias",
-    "score": 176,
-    "collected_at": "2026-06-28T07:12:22.928552+00:00",
-    "normalized_score": 0.15
   }
 ]
