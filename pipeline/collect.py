@@ -12,6 +12,7 @@ OUTPUT.mkdir(exist_ok=True)
 from collectors.hn import fetch as fetch_hn
 from collectors.arxiv import fetch as fetch_arxiv
 from collectors.lobsters import fetch as fetch_lobsters
+from collectors.huggingface import fetch as fetch_huggingface
 
 
 def collect(
@@ -19,7 +20,7 @@ def collect(
     from_date: str | None = None,
     to_date: str | None = None,
 ) -> list[dict]:
-    sources = sources or ["hn", "arxiv", "lobsters"]
+    sources = sources or ["hn", "arxiv", "lobsters", "huggingface"]
     items = []
 
     if "hn" in sources:
@@ -40,6 +41,12 @@ def collect(
         lobsters_items = fetch_lobsters()
         items += lobsters_items
         print(f"  -> {len(lobsters_items)} items")
+
+    if "huggingface" in sources:
+        print("Fetching HuggingFace Papers...", flush=True)
+        hf_items = fetch_huggingface()
+        items += hf_items
+        print(f"  -> {len(hf_items)} items")
 
     return items
 
@@ -93,7 +100,7 @@ if __name__ == "__main__":
     parser.add_argument("--date", help="저장 날짜 (YYYY-MM-DD). 기본값: 오늘")
     parser.add_argument("--from-date", help="arXiv 수집 시작 날짜 (YYYY-MM-DD)")
     parser.add_argument("--to-date", help="arXiv 수집 종료 날짜 (YYYY-MM-DD)")
-    parser.add_argument("--sources", nargs="*", help="수집 소스 (hn, arxiv, lobsters)")
+    parser.add_argument("--sources", nargs="*", help="수집 소스 (hn, arxiv, lobsters, huggingface)")
     args = parser.parse_args()
 
     items = collect(args.sources, from_date=args.from_date, to_date=args.to_date)

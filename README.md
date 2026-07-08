@@ -1,10 +1,10 @@
 # ai-trend
 
-Hacker News와 arXiv에서 AI/에이전트 관련 트렌드를 자동 수집하고 카테고리별로 요약하는 도구.
+Hacker News, arXiv, Lobste.rs, HuggingFace Papers에서 AI/에이전트 관련 트렌드를 자동 수집하고 카테고리별로 요약하는 도구.
 
 ## 기능
 
-- **자동 수집**: Hacker News 상위 글 + arXiv 논문 (harness, agentic loop, multi-agent 등)
+- **자동 수집**: Hacker News 상위 글 + arXiv 논문(harness, agentic loop, multi-agent 등) + Lobste.rs(tag=ai) + HuggingFace 큐레이션 논문
 - **날짜 필터**: arXiv 논문을 날짜 범위로 필터링
 - **다이제스트 생성**: 수집 데이터를 카테고리별 한국어 요약으로 변환
 - **스케줄러**: 매일 09:00 KST 자동 수집

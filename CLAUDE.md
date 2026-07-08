@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-AI 트렌드 수집 도구. Hacker News와 arXiv에서 AI/에이전트 관련 콘텐츠를 수집하고, 카테고리별로 분류·요약해 `output/` 디렉토리에 저장한다. 외부 의존성 없이 Python stdlib만 사용한다.
+AI 트렌드 수집 도구. Hacker News, arXiv, Lobste.rs, HuggingFace Papers에서 AI/에이전트 관련 콘텐츠를 수집하고, 카테고리별로 분류·요약해 `output/` 디렉토리에 저장한다. 외부 의존성 없이 Python stdlib만 사용한다.
 
 ## Commands
 

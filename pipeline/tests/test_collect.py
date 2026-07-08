@@ -11,6 +11,7 @@ sys.path.insert(0, str(Path(__file__).parent.parent))
 from collect import collect, save
 
 FAKE_LOBSTERS_ITEM = {"source": "lobsters", "id": "lobsters:abc123", "title": "Lobste.rs AI Post", "url": "https://lobste.rs/s/abc123", "score": 10, "tags": ["ai"], "num_comments": 5, "collected_at": "2026-06-29T00:00:00+00:00"}
+FAKE_HF_ITEM = {"source": "huggingface", "id": "hf:2607.00001", "title": "HF Paper", "url": "https://huggingface.co/papers/2607.00001", "score": 42, "keywords": ["agent"], "num_comments": 3, "published_at": "2026-07-01", "collected_at": "2026-07-08T00:00:00+00:00"}
 
 
 # ── fixtures ──────────────────────────────────────────────────────────────────
@@ -112,12 +113,21 @@ def test_collect_lobsters_only(monkeypatch):
     assert items[0]["source"] == "lobsters"
 
 
+def test_collect_huggingface_only(monkeypatch):
+    monkeypatch.setattr("collect.fetch_huggingface", lambda **_: [FAKE_HF_ITEM])
+    items = collect(sources=["huggingface"])
+    assert len(items) == 1
+    assert items[0]["source"] == "huggingface"
+
+
 def test_collect_default_sources(monkeypatch):
     called = []
     monkeypatch.setattr("collect.fetch_hn", lambda: called.append("hn") or [])
     monkeypatch.setattr("collect.fetch_arxiv", lambda **_: called.append("arxiv") or [])
     monkeypatch.setattr("collect.fetch_lobsters", lambda **_: called.append("lobsters") or [])
+    monkeypatch.setattr("collect.fetch_huggingface", lambda **_: called.append("huggingface") or [])
     collect()
     assert "hn" in called
     assert "arxiv" in called
     assert "lobsters" in called
+    assert "huggingface" in called
